@@ -1,12 +1,8 @@
 """
-run_experiments.py — Compare baseline and improved search methods.
+run_experiments.py — Run repeated experiments for fair algorithm comparison.
 
 Usage:
     python -m scripts.run_experiments
-
-Runs each registered search method over all datasets and saves summary
-CSVs side-by-side for easy comparison.  Extend METHODS below as new
-algorithms are implemented.
 """
 
 import os
@@ -14,48 +10,61 @@ import sys
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
+from src.evaluation import (
+    aggregate_results,
+    generate_seeds,
+    run_repeated_experiments,
+)
 from src.random_search import run_random_search
-from src.evaluation import run_search_over_datasets, save_summary_csv
-from src.visualization import plot_all_search_results
 
-# Register search methods here.
-# Each entry: (label, search_fn, results_subfolder)
+# Uncomment later when the improved algorithm is implemented.
+# from src.bestconfig_search import run_bestconfig_search
+
+# Register algorithms here as (algorithm_name, search_fn).
 METHODS = [
-    ("Baseline Random Search", run_random_search, "baseline_random_search"),
-    # Uncomment when bestconfig_search is implemented:
-    # ("Improved BestConfig", run_bestconfig_search, "improved_bestconfig"),
+    ("baseline_random_search", run_random_search),
+    # ("improved_bestconfig", run_bestconfig_search),
 ]
 
 DATASETS_FOLDER = os.path.join("datasets")
-BUDGET = 100
-SEED = 42
+RESULTS_BASE = os.path.join("results", "experiments")
+
+BUDGETS = [50, 100]
+N_RUNS = 30
+BASE_SEED = 42
+SAVE_TRACES = False
 
 
 def main():
-    print("=== Experiment Runner ===\n")
+    print("=== Repeated Experiment Runner ===")
+    print(f"Methods: {', '.join(name for name, _ in METHODS)}")
+    print(f"Budgets: {BUDGETS}")
+    print(f"Runs per setting: {N_RUNS}")
+    print(f"Base seed: {BASE_SEED}")
+    print(f"Save traces: {SAVE_TRACES}\n")
 
-    for label, search_fn, subfolder in METHODS:
-        results_base = os.path.join("results", subfolder)
-        search_results = os.path.join(results_base, "search_results")
-        viz_results = os.path.join(results_base, "visualization_results")
+    seeds = generate_seeds(BASE_SEED, N_RUNS)
+    raw_results = run_repeated_experiments(
+        methods=METHODS,
+        datasets_folder=DATASETS_FOLDER,
+        results_base=RESULTS_BASE,
+        budgets=BUDGETS,
+        seeds=seeds,
+        save_traces=SAVE_TRACES,
+    )
+    aggregated_results = aggregate_results(raw_results)
 
-        print(f"--- {label} ---")
-        summaries = run_search_over_datasets(
-            search_fn=search_fn,
-            datasets_folder=DATASETS_FOLDER,
-            results_folder=search_results,
-            budget=BUDGET,
-            seed=SEED,
-        )
+    os.makedirs(RESULTS_BASE, exist_ok=True)
+    raw_results_file = os.path.join(RESULTS_BASE, "raw_results.csv")
+    aggregated_results_file = os.path.join(RESULTS_BASE, "aggregated_results.csv")
 
-        summary_file = os.path.join(results_base, "summary.csv")
-        save_summary_csv(summaries, summary_file)
+    raw_results.to_csv(raw_results_file, index=False)
+    aggregated_results.to_csv(aggregated_results_file, index=False)
 
-        print("Generating visualizations...")
-        plot_all_search_results(search_results, viz_results)
-        print()
-
-    print("All experiments complete.")
+    print(f"\nRaw results saved to {raw_results_file}")
+    print(f"Aggregated results saved to {aggregated_results_file}")
+    if SAVE_TRACES:
+        print(f"Trace CSVs saved under {os.path.join(RESULTS_BASE, 'traces')}")
 
 
 if __name__ == "__main__":

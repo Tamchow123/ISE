@@ -22,6 +22,25 @@ from src.data import (
 )
 
 
+def _is_better(candidate_perf, best_perf, maximization):
+    if maximization:
+        return candidate_perf > best_perf
+    return candidate_perf < best_perf
+
+
+def _save_search_trace(output_file, config_columns, search_results):
+    if output_file is None:
+        return
+
+    output_dir = os.path.dirname(output_file)
+    if output_dir:
+        os.makedirs(output_dir, exist_ok=True)
+
+    columns = list(config_columns) + ["Performance"]
+    search_df = pd.DataFrame(search_results, columns=columns)
+    search_df.to_csv(output_file, index=False)
+
+
 def run_random_search(file_path, budget, output_file, seed=None):
     """Run random search on a single dataset.
 
@@ -31,8 +50,9 @@ def run_random_search(file_path, budget, output_file, seed=None):
         Path to the dataset CSV.
     budget : int
         Number of *valid* measurements to perform.
-    output_file : str
-        Path where the search-trace CSV will be saved.
+    output_file : str or None
+        Path where the search-trace CSV will be saved. If None, the trace is
+        not written.
     seed : int or None
         Random seed for reproducibility.
 
@@ -74,22 +94,14 @@ def run_random_search(file_path, budget, output_file, seed=None):
             invalid_count += 1
 
         # Update the best solution
-        if maximization:
-            if perf > best_performance:
-                best_performance = perf
-                best_solution = config
-        else:
-            if perf < best_performance:
-                best_performance = perf
-                best_solution = config
+        if _is_better(perf, best_performance, maximization):
+            best_performance = perf
+            best_solution = config
 
         search_results.append(config + [perf])
 
-    # Save search trace
-    os.makedirs(os.path.dirname(output_file), exist_ok=True)
-    columns = list(config_columns) + ["Performance"]
-    search_df = pd.DataFrame(search_results, columns=columns)
-    search_df.to_csv(output_file, index=False)
+    # Save search trace only when requested by the caller.
+    _save_search_trace(output_file, config_columns, search_results)
 
     summary = {
         "system": system_name,
