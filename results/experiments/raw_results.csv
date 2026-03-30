@@ -1,0 +1,961 @@
+algorithm,dataset,budget,seed,best_performance,best_solution,valid_count,invalid_count,total_samples
+baseline_random_search,7z,50,42,4402.6,"[2, 0, 0, 0, 1, 70, 512, 4]",50,0,50
+baseline_random_search,7z,50,43,4720.4,"[2, 0, 0, 0, 1, 60, 64, 0]",50,0,50
+baseline_random_search,7z,50,44,5264.4,"[2, 1, 1, 0, 1, 20, 16, 2]",50,0,50
+baseline_random_search,7z,50,45,4298.0,"[2, 1, 1, 0, 0, 80, 1024, 4]",50,0,50
+baseline_random_search,7z,50,46,4731.0,"[2, 0, 0, 0, 1, 60, 4096, 2]",50,0,50
+baseline_random_search,7z,50,47,4969.2,"[2, 0, 0, 0, 0, 30, 32, 0]",50,0,50
+baseline_random_search,7z,50,48,4446.4,"[2, 0, 0, 0, 1, 60, 128, 4]",50,0,50
+baseline_random_search,7z,50,49,4693.6,"[2, 0, 0, 0, 1, 90, 256, 2]",50,0,50
+baseline_random_search,7z,50,50,4693.0,"[2, 1, 1, 0, 0, 80, 4096, 2]",50,0,50
+baseline_random_search,7z,50,51,4597.6,"[2, 0, 0, 0, 0, 30, 32, 4]",50,0,50
+baseline_random_search,7z,50,52,4651.0,"[2, 0, 0, 0, 1, 100, 64, 0]",50,0,50
+baseline_random_search,7z,50,53,9135.2,"[5, 0, 1, 1, 1, 20, 64, 0]",50,0,50
+baseline_random_search,7z,50,54,5009.6,"[2, 0, 1, 0, 0, 20, 128, 2]",50,0,50
+baseline_random_search,7z,50,55,8970.4,"[4, 0, 1, 0, 0, 80, 16, 2]",50,0,50
+baseline_random_search,7z,50,56,4676.6,"[2, 1, 0, 0, 1, 100, 1024, 0]",50,0,50
+baseline_random_search,7z,50,57,9135.4,"[5, 0, 0, 0, 0, 20, 32, 4]",50,0,50
+baseline_random_search,7z,50,58,4851.2,"[2, 0, 1, 0, 1, 40, 2048, 0]",50,0,50
+baseline_random_search,7z,50,59,5200.8,"[2, 0, 0, 0, 1, 30, 8, 2]",50,0,50
+baseline_random_search,7z,50,60,4887.8,"[2, 1, 1, 0, 1, 40, 1024, 0]",50,0,50
+baseline_random_search,7z,50,61,7427.0,"[2, 0, 1, 0, 0, 50, 2, 0]",50,0,50
+baseline_random_search,7z,50,62,4684.0,"[2, 1, 0, 0, 0, 90, 64, 0]",50,0,50
+baseline_random_search,7z,50,63,4782.2,"[2, 1, 0, 0, 1, 70, 4096, 0]",50,0,50
+baseline_random_search,7z,50,64,4381.8,"[2, 1, 1, 0, 1, 100, 128, 4]",50,0,50
+baseline_random_search,7z,50,65,4557.6,"[2, 0, 1, 0, 1, 30, 512, 4]",50,0,50
+baseline_random_search,7z,50,66,4641.6,"[2, 0, 1, 0, 1, 100, 64, 2]",50,0,50
+baseline_random_search,7z,50,67,4924.4,"[2, 0, 0, 0, 0, 50, 64, 0]",50,0,50
+baseline_random_search,7z,50,68,5477.2,"[2, 0, 0, 0, 1, 70, 4, 0]",50,0,50
+baseline_random_search,7z,50,69,5518.0,"[2, 0, 0, 0, 1, 30, 4, 0]",50,0,50
+baseline_random_search,7z,50,70,4357.8,"[2, 0, 1, 0, 1, 100, 4096, 4]",50,0,50
+baseline_random_search,7z,50,71,4757.2,"[2, 0, 1, 0, 0, 70, 64, 0]",50,0,50
+baseline_random_search,7z,100,42,4402.6,"[2, 0, 0, 0, 1, 70, 512, 4]",100,0,100
+baseline_random_search,7z,100,43,4720.4,"[2, 0, 0, 0, 1, 60, 64, 0]",100,0,100
+baseline_random_search,7z,100,44,5044.0,"[2, 0, 0, 0, 0, 20, 256, 2]",100,0,100
+baseline_random_search,7z,100,45,4298.0,"[2, 1, 1, 0, 0, 80, 1024, 4]",100,0,100
+baseline_random_search,7z,100,46,4701.0,"[2, 0, 1, 0, 1, 60, 256, 0]",100,0,100
+baseline_random_search,7z,100,47,4695.0,"[2, 0, 1, 0, 0, 60, 64, 0]",100,0,100
+baseline_random_search,7z,100,48,4446.4,"[2, 0, 0, 0, 1, 60, 128, 4]",100,0,100
+baseline_random_search,7z,100,49,4693.6,"[2, 0, 0, 0, 1, 90, 256, 2]",100,0,100
+baseline_random_search,7z,100,50,4693.0,"[2, 1, 1, 0, 0, 80, 4096, 2]",100,0,100
+baseline_random_search,7z,100,51,4597.6,"[2, 0, 0, 0, 0, 30, 32, 4]",100,0,100
+baseline_random_search,7z,100,52,4651.0,"[2, 0, 0, 0, 1, 100, 64, 0]",100,0,100
+baseline_random_search,7z,100,53,4454.0,"[2, 0, 0, 0, 0, 70, 512, 4]",100,0,100
+baseline_random_search,7z,100,54,4653.2,"[2, 0, 1, 0, 1, 90, 64, 2]",100,0,100
+baseline_random_search,7z,100,55,4368.8,"[2, 0, 1, 0, 0, 70, 256, 4]",100,0,100
+baseline_random_search,7z,100,56,4676.6,"[2, 1, 0, 0, 1, 100, 1024, 0]",100,0,100
+baseline_random_search,7z,100,57,4708.8,"[2, 0, 1, 0, 0, 60, 2048, 0]",100,0,100
+baseline_random_search,7z,100,58,4680.0,"[2, 0, 0, 0, 1, 90, 4096, 2]",100,0,100
+baseline_random_search,7z,100,59,5022.0,"[2, 1, 1, 0, 1, 20, 128, 2]",100,0,100
+baseline_random_search,7z,100,60,4605.2,"[2, 1, 0, 0, 0, 30, 512, 4]",100,0,100
+baseline_random_search,7z,100,61,4533.4,"[2, 1, 1, 0, 1, 50, 1024, 4]",100,0,100
+baseline_random_search,7z,100,62,4684.0,"[2, 1, 0, 0, 0, 90, 64, 0]",100,0,100
+baseline_random_search,7z,100,63,4605.2,"[2, 0, 0, 0, 0, 60, 32, 4]",100,0,100
+baseline_random_search,7z,100,64,4381.8,"[2, 1, 1, 0, 1, 100, 128, 4]",100,0,100
+baseline_random_search,7z,100,65,4557.6,"[2, 0, 1, 0, 1, 30, 512, 4]",100,0,100
+baseline_random_search,7z,100,66,4641.6,"[2, 0, 1, 0, 1, 100, 64, 2]",100,0,100
+baseline_random_search,7z,100,67,4597.4,"[2, 1, 0, 0, 1, 30, 512, 4]",100,0,100
+baseline_random_search,7z,100,68,4575.0,"[2, 0, 0, 0, 1, 30, 1024, 4]",100,0,100
+baseline_random_search,7z,100,69,4855.0,"[2, 0, 1, 0, 0, 50, 1024, 2]",100,0,100
+baseline_random_search,7z,100,70,4357.8,"[2, 0, 1, 0, 1, 100, 4096, 4]",100,0,100
+baseline_random_search,7z,100,71,4757.2,"[2, 0, 1, 0, 0, 70, 64, 0]",100,0,100
+baseline_random_search,Apache,50,42,31.1458,"[0, 1, 2, 2, 0, 0, 512, 0]",50,139,189
+baseline_random_search,Apache,50,43,31.1244,"[1, 1, 2, 2, 1, 0, 512, 0]",50,115,165
+baseline_random_search,Apache,50,44,30.8186,"[0, 1, 2, 2, 1, 0, 512, 0]",50,97,147
+baseline_random_search,Apache,50,45,31.4174,"[0, 1, 2, 0, 1, 0, 1024, 0]",50,127,177
+baseline_random_search,Apache,50,46,31.2796,"[1, 1, 2, 0, 0, 1, 512, 0]",50,161,211
+baseline_random_search,Apache,50,47,30.8186,"[0, 1, 2, 2, 1, 0, 512, 0]",50,134,184
+baseline_random_search,Apache,50,48,31.283,"[0, 1, 2, 1, 0, 0, 1024, 0]",50,131,181
+baseline_random_search,Apache,50,49,31.4676,"[0, 1, 2, 2, 0, 0, 4096, 0]",50,139,189
+baseline_random_search,Apache,50,50,31.6068,"[0, 1, 2, 2, 1, 1, 4096, 0]",50,140,190
+baseline_random_search,Apache,50,51,30.7448,"[0, 1, 2, 1, 0, 0, 512, 0]",50,102,152
+baseline_random_search,Apache,50,52,30.8186,"[0, 1, 2, 2, 1, 0, 512, 0]",50,117,167
+baseline_random_search,Apache,50,53,31.3186,"[0, 1, 2, 0, 0, 0, 512, 0]",50,130,180
+baseline_random_search,Apache,50,54,31.0888,"[0, 1, 2, 2, 1, 0, 1024, 0]",50,129,179
+baseline_random_search,Apache,50,55,31.6904,"[0, 1, 2, 0, 1, 0, 4096, 0]",50,139,189
+baseline_random_search,Apache,50,56,31.2602,"[0, 1, 2, 2, 0, 0, 1024, 0]",50,149,199
+baseline_random_search,Apache,50,57,31.6068,"[0, 1, 2, 2, 1, 1, 4096, 0]",50,155,205
+baseline_random_search,Apache,50,58,31.2602,"[0, 1, 2, 2, 0, 0, 1024, 0]",50,110,160
+baseline_random_search,Apache,50,59,31.2232,"[0, 1, 2, 0, 0, 0, 1024, 0]",50,147,197
+baseline_random_search,Apache,50,60,31.2602,"[0, 1, 2, 2, 0, 0, 1024, 0]",50,128,178
+baseline_random_search,Apache,50,61,30.7448,"[0, 1, 2, 1, 0, 0, 512, 0]",50,127,177
+baseline_random_search,Apache,50,62,31.1458,"[0, 1, 2, 2, 0, 0, 512, 0]",50,171,221
+baseline_random_search,Apache,50,63,32.0282,"[0, 1, 2, 2, 0, 1, 2048, 0]",50,162,212
+baseline_random_search,Apache,50,64,31.1622,"[1, 1, 2, 0, 0, 0, 4096, 0]",50,146,196
+baseline_random_search,Apache,50,65,31.0888,"[0, 1, 2, 2, 1, 0, 1024, 0]",50,100,150
+baseline_random_search,Apache,50,66,30.8186,"[0, 1, 2, 2, 1, 0, 512, 0]",50,138,188
+baseline_random_search,Apache,50,67,31.0888,"[0, 1, 2, 2, 1, 0, 1024, 0]",50,101,151
+baseline_random_search,Apache,50,68,31.0888,"[0, 1, 2, 2, 1, 0, 1024, 0]",50,147,197
+baseline_random_search,Apache,50,69,31.2232,"[0, 1, 2, 0, 0, 0, 1024, 0]",50,122,172
+baseline_random_search,Apache,50,70,31.1244,"[1, 1, 2, 2, 1, 0, 512, 0]",50,173,223
+baseline_random_search,Apache,50,71,30.8186,"[0, 1, 2, 2, 1, 0, 512, 0]",50,132,182
+baseline_random_search,Apache,100,42,31.0888,"[0, 1, 2, 2, 1, 0, 1024, 0]",100,285,385
+baseline_random_search,Apache,100,43,31.1244,"[1, 1, 2, 2, 1, 0, 512, 0]",100,229,329
+baseline_random_search,Apache,100,44,30.8186,"[0, 1, 2, 2, 1, 0, 512, 0]",100,214,314
+baseline_random_search,Apache,100,45,31.2602,"[0, 1, 2, 2, 0, 0, 1024, 0]",100,270,370
+baseline_random_search,Apache,100,46,31.0888,"[0, 1, 2, 2, 1, 0, 1024, 0]",100,286,386
+baseline_random_search,Apache,100,47,30.8186,"[0, 1, 2, 2, 1, 0, 512, 0]",100,258,358
+baseline_random_search,Apache,100,48,31.283,"[0, 1, 2, 1, 0, 0, 1024, 0]",100,283,383
+baseline_random_search,Apache,100,49,30.8186,"[0, 1, 2, 2, 1, 0, 512, 0]",100,235,335
+baseline_random_search,Apache,100,50,31.4174,"[0, 1, 2, 0, 1, 0, 1024, 0]",100,299,399
+baseline_random_search,Apache,100,51,30.7448,"[0, 1, 2, 1, 0, 0, 512, 0]",100,237,337
+baseline_random_search,Apache,100,52,30.8186,"[0, 1, 2, 2, 1, 0, 512, 0]",100,217,317
+baseline_random_search,Apache,100,53,31.0888,"[0, 1, 2, 2, 1, 0, 1024, 0]",100,236,336
+baseline_random_search,Apache,100,54,30.7448,"[0, 1, 2, 1, 0, 0, 512, 0]",100,276,376
+baseline_random_search,Apache,100,55,31.6904,"[0, 1, 2, 0, 1, 0, 4096, 0]",100,281,381
+baseline_random_search,Apache,100,56,31.2602,"[0, 1, 2, 2, 0, 0, 1024, 0]",100,292,392
+baseline_random_search,Apache,100,57,31.6068,"[0, 1, 2, 2, 1, 1, 4096, 0]",100,284,384
+baseline_random_search,Apache,100,58,30.8186,"[0, 1, 2, 2, 1, 0, 512, 0]",100,223,323
+baseline_random_search,Apache,100,59,31.2232,"[0, 1, 2, 0, 0, 0, 1024, 0]",100,254,354
+baseline_random_search,Apache,100,60,31.03,"[0, 1, 2, 1, 1, 0, 512, 0]",100,243,343
+baseline_random_search,Apache,100,61,30.7448,"[0, 1, 2, 1, 0, 0, 512, 0]",100,238,338
+baseline_random_search,Apache,100,62,31.03,"[0, 1, 2, 1, 1, 0, 512, 0]",100,311,411
+baseline_random_search,Apache,100,63,31.1458,"[0, 1, 2, 2, 0, 0, 512, 0]",100,268,368
+baseline_random_search,Apache,100,64,31.1622,"[1, 1, 2, 0, 0, 0, 4096, 0]",100,267,367
+baseline_random_search,Apache,100,65,31.0888,"[0, 1, 2, 2, 1, 0, 1024, 0]",100,202,302
+baseline_random_search,Apache,100,66,30.8186,"[0, 1, 2, 2, 1, 0, 512, 0]",100,295,395
+baseline_random_search,Apache,100,67,31.0888,"[0, 1, 2, 2, 1, 0, 1024, 0]",100,222,322
+baseline_random_search,Apache,100,68,31.0888,"[0, 1, 2, 2, 1, 0, 1024, 0]",100,257,357
+baseline_random_search,Apache,100,69,31.03,"[0, 1, 2, 1, 1, 0, 512, 0]",100,257,357
+baseline_random_search,Apache,100,70,31.0946,"[0, 1, 2, 0, 1, 0, 512, 0]",100,309,409
+baseline_random_search,Apache,100,71,30.8186,"[0, 1, 2, 2, 1, 0, 512, 0]",100,256,356
+baseline_random_search,LLVM,50,42,58722.2,"[1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0]",50,0,50
+baseline_random_search,LLVM,50,43,59757.8,"[0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]",50,0,50
+baseline_random_search,LLVM,50,44,58020.6,"[1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0]",50,0,50
+baseline_random_search,LLVM,50,45,59777.8,"[0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0]",50,0,50
+baseline_random_search,LLVM,50,46,58959.4,"[1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0]",50,0,50
+baseline_random_search,LLVM,50,47,57931.0,"[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0]",50,0,50
+baseline_random_search,LLVM,50,48,59451.4,"[1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1]",50,0,50
+baseline_random_search,LLVM,50,49,60858.4,"[0, 1, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0]",50,0,50
+baseline_random_search,LLVM,50,50,60671.8,"[0, 1, 0, 0, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0]",50,0,50
+baseline_random_search,LLVM,50,51,63049.6,"[1, 1, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0]",50,0,50
+baseline_random_search,LLVM,50,52,60035.8,"[0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0]",50,0,50
+baseline_random_search,LLVM,50,53,56929.8,"[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0]",50,0,50
+baseline_random_search,LLVM,50,54,58368.4,"[0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0]",50,0,50
+baseline_random_search,LLVM,50,55,59257.2,"[1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0]",50,0,50
+baseline_random_search,LLVM,50,56,61332.6,"[1, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0]",50,0,50
+baseline_random_search,LLVM,50,57,63943.6,"[1, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0]",50,0,50
+baseline_random_search,LLVM,50,58,53887.2,"[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",50,0,50
+baseline_random_search,LLVM,50,59,62492.4,"[1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0]",50,0,50
+baseline_random_search,LLVM,50,60,58096.6,"[1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0]",50,0,50
+baseline_random_search,LLVM,50,61,65487.6,"[0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1]",50,0,50
+baseline_random_search,LLVM,50,62,58482.4,"[1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0]",50,0,50
+baseline_random_search,LLVM,50,63,59458.0,"[1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0]",50,0,50
+baseline_random_search,LLVM,50,64,62090.6,"[1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1]",50,0,50
+baseline_random_search,LLVM,50,65,57690.4,"[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0]",50,0,50
+baseline_random_search,LLVM,50,66,61959.6,"[1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1]",50,0,50
+baseline_random_search,LLVM,50,67,58698.4,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]",50,0,50
+baseline_random_search,LLVM,50,68,60495.8,"[1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1]",50,0,50
+baseline_random_search,LLVM,50,69,61788.0,"[1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0]",50,0,50
+baseline_random_search,LLVM,50,70,59147.4,"[0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0]",50,0,50
+baseline_random_search,LLVM,50,71,59297.6,"[0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1]",50,0,50
+baseline_random_search,LLVM,100,42,58722.2,"[1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0]",100,0,100
+baseline_random_search,LLVM,100,43,59757.8,"[0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]",100,0,100
+baseline_random_search,LLVM,100,44,58020.6,"[1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0]",100,0,100
+baseline_random_search,LLVM,100,45,59777.8,"[0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0]",100,0,100
+baseline_random_search,LLVM,100,46,58959.4,"[1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0]",100,0,100
+baseline_random_search,LLVM,100,47,57931.0,"[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0]",100,0,100
+baseline_random_search,LLVM,100,48,56908.2,"[0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]",100,0,100
+baseline_random_search,LLVM,100,49,55568.2,"[1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]",100,0,100
+baseline_random_search,LLVM,100,50,60671.8,"[0, 1, 0, 0, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0]",100,0,100
+baseline_random_search,LLVM,100,51,58435.2,"[1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0]",100,0,100
+baseline_random_search,LLVM,100,52,58776.6,"[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0]",100,0,100
+baseline_random_search,LLVM,100,53,56929.8,"[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0]",100,0,100
+baseline_random_search,LLVM,100,54,58368.4,"[0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0]",100,0,100
+baseline_random_search,LLVM,100,55,57907.6,"[1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0]",100,0,100
+baseline_random_search,LLVM,100,56,60146.6,"[0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1]",100,0,100
+baseline_random_search,LLVM,100,57,59203.6,"[0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0]",100,0,100
+baseline_random_search,LLVM,100,58,53887.2,"[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",100,0,100
+baseline_random_search,LLVM,100,59,60418.2,"[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1]",100,0,100
+baseline_random_search,LLVM,100,60,58096.6,"[1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0]",100,0,100
+baseline_random_search,LLVM,100,61,57527.0,"[0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0]",100,0,100
+baseline_random_search,LLVM,100,62,58482.4,"[1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0]",100,0,100
+baseline_random_search,LLVM,100,63,59458.0,"[1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0]",100,0,100
+baseline_random_search,LLVM,100,64,56714.8,"[0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0]",100,0,100
+baseline_random_search,LLVM,100,65,57690.4,"[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0]",100,0,100
+baseline_random_search,LLVM,100,66,61959.6,"[1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1]",100,0,100
+baseline_random_search,LLVM,100,67,57722.6,"[0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]",100,0,100
+baseline_random_search,LLVM,100,68,57014.4,"[1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0]",100,0,100
+baseline_random_search,LLVM,100,69,59258.6,"[1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]",100,0,100
+baseline_random_search,LLVM,100,70,59147.4,"[0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0]",100,0,100
+baseline_random_search,LLVM,100,71,59297.6,"[0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1]",100,0,100
+baseline_random_search,PostgreSQL,50,42,46078.8,"[0, 0, 1, 0, 0, 128, 32, 256]",50,0,50
+baseline_random_search,PostgreSQL,50,43,46132.6,"[0, 0, 1, 0, 1, 64, 32, 1024]",50,0,50
+baseline_random_search,PostgreSQL,50,44,46042.4,"[0, 0, 0, 0, 0, 256, 32, 4096]",50,0,50
+baseline_random_search,PostgreSQL,50,45,46047.4,"[0, 1, 1, 0, 0, 256, 32, 1024]",50,0,50
+baseline_random_search,PostgreSQL,50,46,46035.0,"[0, 0, 0, 0, 1, 128, 32, 256]",50,0,50
+baseline_random_search,PostgreSQL,50,47,46039.0,"[0, 1, 0, 0, 0, 256, 32, 4096]",50,0,50
+baseline_random_search,PostgreSQL,50,48,46035.0,"[0, 0, 0, 0, 1, 128, 32, 256]",50,0,50
+baseline_random_search,PostgreSQL,50,49,46100.4,"[0, 0, 0, 0, 1, 256, 8, 256]",50,0,50
+baseline_random_search,PostgreSQL,50,50,46035.0,"[0, 0, 0, 0, 1, 128, 32, 256]",50,0,50
+baseline_random_search,PostgreSQL,50,51,45980.8,"[0, 1, 0, 0, 0, 128, 8, 1024]",50,0,50
+baseline_random_search,PostgreSQL,50,52,46100.4,"[0, 0, 0, 0, 1, 256, 8, 256]",50,0,50
+baseline_random_search,PostgreSQL,50,53,45980.8,"[0, 1, 0, 0, 0, 128, 8, 1024]",50,0,50
+baseline_random_search,PostgreSQL,50,54,46133.4,"[0, 1, 0, 0, 1, 256, 8, 4096]",50,0,50
+baseline_random_search,PostgreSQL,50,55,46163.2,"[0, 0, 1, 0, 0, 128, 8, 4096]",50,0,50
+baseline_random_search,PostgreSQL,50,56,46133.4,"[0, 1, 0, 0, 1, 256, 8, 4096]",50,0,50
+baseline_random_search,PostgreSQL,50,57,46121.0,"[0, 0, 1, 0, 1, 128, 2, 256]",50,0,50
+baseline_random_search,PostgreSQL,50,58,46042.4,"[0, 0, 0, 0, 0, 256, 32, 4096]",50,0,50
+baseline_random_search,PostgreSQL,50,59,46073.6,"[0, 0, 0, 0, 1, 64, 32, 4096]",50,0,50
+baseline_random_search,PostgreSQL,50,60,46064.6,"[0, 0, 1, 0, 1, 256, 8, 256]",50,0,50
+baseline_random_search,PostgreSQL,50,61,46035.0,"[0, 0, 0, 0, 1, 128, 32, 256]",50,0,50
+baseline_random_search,PostgreSQL,50,62,46047.4,"[0, 1, 1, 0, 0, 256, 32, 1024]",50,0,50
+baseline_random_search,PostgreSQL,50,63,46100.4,"[0, 0, 0, 0, 1, 256, 8, 256]",50,0,50
+baseline_random_search,PostgreSQL,50,64,46042.4,"[0, 0, 0, 0, 0, 256, 32, 4096]",50,0,50
+baseline_random_search,PostgreSQL,50,65,46096.4,"[0, 1, 0, 0, 0, 256, 2, 4096]",50,0,50
+baseline_random_search,PostgreSQL,50,66,46064.6,"[0, 0, 1, 0, 1, 256, 8, 256]",50,0,50
+baseline_random_search,PostgreSQL,50,67,46097.6,"[0, 1, 0, 0, 0, 256, 8, 1024]",50,0,50
+baseline_random_search,PostgreSQL,50,68,46095.0,"[0, 0, 1, 0, 0, 64, 2, 4096]",50,0,50
+baseline_random_search,PostgreSQL,50,69,46138.8,"[0, 0, 1, 0, 0, 128, 32, 1024]",50,0,50
+baseline_random_search,PostgreSQL,50,70,45939.8,"[0, 0, 1, 0, 1, 256, 32, 1024]",50,0,50
+baseline_random_search,PostgreSQL,50,71,45939.8,"[0, 0, 1, 0, 1, 256, 32, 1024]",50,0,50
+baseline_random_search,PostgreSQL,100,42,46078.8,"[0, 0, 1, 0, 0, 128, 32, 256]",100,0,100
+baseline_random_search,PostgreSQL,100,43,45980.8,"[0, 1, 0, 0, 0, 128, 8, 1024]",100,0,100
+baseline_random_search,PostgreSQL,100,44,46042.4,"[0, 0, 0, 0, 0, 256, 32, 4096]",100,0,100
+baseline_random_search,PostgreSQL,100,45,46047.4,"[0, 1, 1, 0, 0, 256, 32, 1024]",100,0,100
+baseline_random_search,PostgreSQL,100,46,46035.0,"[0, 0, 0, 0, 1, 128, 32, 256]",100,0,100
+baseline_random_search,PostgreSQL,100,47,46035.0,"[0, 0, 0, 0, 1, 128, 32, 256]",100,0,100
+baseline_random_search,PostgreSQL,100,48,46035.0,"[0, 0, 0, 0, 1, 128, 32, 256]",100,0,100
+baseline_random_search,PostgreSQL,100,49,46022.8,"[0, 1, 0, 0, 0, 128, 2, 256]",100,0,100
+baseline_random_search,PostgreSQL,100,50,46035.0,"[0, 0, 0, 0, 1, 128, 32, 256]",100,0,100
+baseline_random_search,PostgreSQL,100,51,45980.8,"[0, 1, 0, 0, 0, 128, 8, 1024]",100,0,100
+baseline_random_search,PostgreSQL,100,52,46054.6,"[0, 1, 0, 0, 1, 64, 8, 1024]",100,0,100
+baseline_random_search,PostgreSQL,100,53,45980.8,"[0, 1, 0, 0, 0, 128, 8, 1024]",100,0,100
+baseline_random_search,PostgreSQL,100,54,45922.8,"[0, 1, 1, 0, 0, 64, 8, 256]",100,0,100
+baseline_random_search,PostgreSQL,100,55,46099.4,"[0, 1, 0, 0, 1, 128, 2, 1024]",100,0,100
+baseline_random_search,PostgreSQL,100,56,46035.0,"[0, 0, 0, 0, 1, 128, 32, 256]",100,0,100
+baseline_random_search,PostgreSQL,100,57,45980.8,"[0, 1, 0, 0, 0, 128, 8, 1024]",100,0,100
+baseline_random_search,PostgreSQL,100,58,46042.4,"[0, 0, 0, 0, 0, 256, 32, 4096]",100,0,100
+baseline_random_search,PostgreSQL,100,59,46073.6,"[0, 0, 0, 0, 1, 64, 32, 4096]",100,0,100
+baseline_random_search,PostgreSQL,100,60,46064.6,"[0, 0, 1, 0, 1, 256, 8, 256]",100,0,100
+baseline_random_search,PostgreSQL,100,61,46035.0,"[0, 0, 0, 0, 1, 128, 32, 256]",100,0,100
+baseline_random_search,PostgreSQL,100,62,45980.8,"[0, 1, 0, 0, 0, 128, 8, 1024]",100,0,100
+baseline_random_search,PostgreSQL,100,63,46100.4,"[0, 0, 0, 0, 1, 256, 8, 256]",100,0,100
+baseline_random_search,PostgreSQL,100,64,46042.4,"[0, 0, 0, 0, 0, 256, 32, 4096]",100,0,100
+baseline_random_search,PostgreSQL,100,65,46096.4,"[0, 1, 0, 0, 0, 256, 2, 4096]",100,0,100
+baseline_random_search,PostgreSQL,100,66,46064.6,"[0, 0, 1, 0, 1, 256, 8, 256]",100,0,100
+baseline_random_search,PostgreSQL,100,67,46097.6,"[0, 1, 0, 0, 0, 256, 8, 1024]",100,0,100
+baseline_random_search,PostgreSQL,100,68,46095.0,"[0, 0, 1, 0, 0, 64, 2, 4096]",100,0,100
+baseline_random_search,PostgreSQL,100,69,46078.8,"[0, 0, 1, 0, 0, 128, 32, 256]",100,0,100
+baseline_random_search,PostgreSQL,100,70,45939.8,"[0, 0, 1, 0, 1, 256, 32, 1024]",100,0,100
+baseline_random_search,PostgreSQL,100,71,45939.8,"[0, 0, 1, 0, 1, 256, 32, 1024]",100,0,100
+baseline_random_search,brotli,50,42,1.514,"[13, 1]",50,0,50
+baseline_random_search,brotli,50,43,1.46,"[14, 1]",50,0,50
+baseline_random_search,brotli,50,44,1.52,"[15, 1]",50,0,50
+baseline_random_search,brotli,50,45,1.46,"[14, 1]",50,0,50
+baseline_random_search,brotli,50,46,1.472,"[14, 0]",50,0,50
+baseline_random_search,brotli,50,47,1.46,"[14, 1]",50,0,50
+baseline_random_search,brotli,50,48,1.52,"[15, 1]",50,0,50
+baseline_random_search,brotli,50,49,1.514,"[13, 1]",50,0,50
+baseline_random_search,brotli,50,50,1.472,"[14, 0]",50,0,50
+baseline_random_search,brotli,50,51,1.472,"[14, 0]",50,0,50
+baseline_random_search,brotli,50,52,1.514,"[13, 1]",50,0,50
+baseline_random_search,brotli,50,53,1.46,"[14, 1]",50,0,50
+baseline_random_search,brotli,50,54,1.52,"[15, 1]",50,0,50
+baseline_random_search,brotli,50,55,1.574,"[24, 0]",50,0,50
+baseline_random_search,brotli,50,56,1.526,"[11, 0]",50,0,50
+baseline_random_search,brotli,50,57,1.46,"[14, 1]",50,0,50
+baseline_random_search,brotli,50,58,1.472,"[14, 0]",50,0,50
+baseline_random_search,brotli,50,59,1.514,"[13, 1]",50,0,50
+baseline_random_search,brotli,50,60,1.514,"[13, 1]",50,0,50
+baseline_random_search,brotli,50,61,1.472,"[14, 0]",50,0,50
+baseline_random_search,brotli,50,62,1.534,"[15, 0]",50,0,50
+baseline_random_search,brotli,50,63,1.528,"[12, 0]",50,0,50
+baseline_random_search,brotli,50,64,1.46,"[14, 1]",50,0,50
+baseline_random_search,brotli,50,65,1.472,"[14, 0]",50,0,50
+baseline_random_search,brotli,50,66,1.528,"[12, 0]",50,0,50
+baseline_random_search,brotli,50,67,1.472,"[14, 0]",50,0,50
+baseline_random_search,brotli,50,68,1.514,"[13, 1]",50,0,50
+baseline_random_search,brotli,50,69,1.572,"[23, 1]",50,0,50
+baseline_random_search,brotli,50,70,1.472,"[14, 0]",50,0,50
+baseline_random_search,brotli,50,71,1.472,"[14, 0]",50,0,50
+baseline_random_search,brotli,100,42,1.514,"[13, 1]",100,0,100
+baseline_random_search,brotli,100,43,1.46,"[14, 1]",100,0,100
+baseline_random_search,brotli,100,44,1.514,"[13, 0]",100,0,100
+baseline_random_search,brotli,100,45,1.46,"[14, 1]",100,0,100
+baseline_random_search,brotli,100,46,1.46,"[14, 1]",100,0,100
+baseline_random_search,brotli,100,47,1.46,"[14, 1]",100,0,100
+baseline_random_search,brotli,100,48,1.514,"[13, 0]",100,0,100
+baseline_random_search,brotli,100,49,1.46,"[14, 1]",100,0,100
+baseline_random_search,brotli,100,50,1.472,"[14, 0]",100,0,100
+baseline_random_search,brotli,100,51,1.472,"[14, 0]",100,0,100
+baseline_random_search,brotli,100,52,1.46,"[14, 1]",100,0,100
+baseline_random_search,brotli,100,53,1.46,"[14, 1]",100,0,100
+baseline_random_search,brotli,100,54,1.46,"[14, 1]",100,0,100
+baseline_random_search,brotli,100,55,1.46,"[14, 1]",100,0,100
+baseline_random_search,brotli,100,56,1.526,"[11, 0]",100,0,100
+baseline_random_search,brotli,100,57,1.46,"[14, 1]",100,0,100
+baseline_random_search,brotli,100,58,1.472,"[14, 0]",100,0,100
+baseline_random_search,brotli,100,59,1.514,"[13, 1]",100,0,100
+baseline_random_search,brotli,100,60,1.46,"[14, 1]",100,0,100
+baseline_random_search,brotli,100,61,1.472,"[14, 0]",100,0,100
+baseline_random_search,brotli,100,62,1.52,"[15, 1]",100,0,100
+baseline_random_search,brotli,100,63,1.514,"[13, 0]",100,0,100
+baseline_random_search,brotli,100,64,1.46,"[14, 1]",100,0,100
+baseline_random_search,brotli,100,65,1.472,"[14, 0]",100,0,100
+baseline_random_search,brotli,100,66,1.528,"[12, 0]",100,0,100
+baseline_random_search,brotli,100,67,1.46,"[14, 1]",100,0,100
+baseline_random_search,brotli,100,68,1.514,"[13, 1]",100,0,100
+baseline_random_search,brotli,100,69,1.46,"[14, 1]",100,0,100
+baseline_random_search,brotli,100,70,1.472,"[14, 0]",100,0,100
+baseline_random_search,brotli,100,71,1.472,"[14, 0]",100,0,100
+baseline_random_search,spear,50,42,0.000993048659384,"[0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1]",50,0,50
+baseline_random_search,spear,50,43,0.00397219463754,"[0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1]",50,0,50
+baseline_random_search,spear,50,44,0.000993048659384,"[0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1]",50,0,50
+baseline_random_search,spear,50,45,0.000993048659384,"[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 1]",50,0,50
+baseline_random_search,spear,50,46,0.000993048659384,"[0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0]",50,0,50
+baseline_random_search,spear,50,47,0.000993048659384,"[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0]",50,0,50
+baseline_random_search,spear,50,48,0.000993048659384,"[0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1]",50,0,50
+baseline_random_search,spear,50,49,0.00297914597815,"[0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1]",50,0,50
+baseline_random_search,spear,50,50,0.00297914597815,"[0, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1]",50,0,50
+baseline_random_search,spear,50,51,0.000993048659384,"[0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0]",50,0,50
+baseline_random_search,spear,50,52,0.000993048659384,"[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0]",50,0,50
+baseline_random_search,spear,50,53,0.000993048659384,"[0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1]",50,0,50
+baseline_random_search,spear,50,54,0.00198609731877,"[0, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1]",50,0,50
+baseline_random_search,spear,50,55,0.000993048659384,"[0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0]",50,0,50
+baseline_random_search,spear,50,56,0.00297914597815,"[0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0]",50,0,50
+baseline_random_search,spear,50,57,0.000993048659384,"[0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1]",50,0,50
+baseline_random_search,spear,50,58,0.000993048659384,"[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]",50,0,50
+baseline_random_search,spear,50,59,0.00198609731877,"[0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 1, 1, 0, 1]",50,0,50
+baseline_random_search,spear,50,60,0.000993048659384,"[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1]",50,0,50
+baseline_random_search,spear,50,61,0.00297914597815,"[0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0]",50,0,50
+baseline_random_search,spear,50,62,0.00198609731877,"[0, 0, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 0, 1]",50,0,50
+baseline_random_search,spear,50,63,0.00297914597815,"[0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 1, 1]",50,0,50
+baseline_random_search,spear,50,64,0.00198609731877,"[0, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 0]",50,0,50
+baseline_random_search,spear,50,65,0.00297914597815,"[0, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 0]",50,0,50
+baseline_random_search,spear,50,66,0.000993048659384,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0]",50,0,50
+baseline_random_search,spear,50,67,0.000993048659384,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]",50,0,50
+baseline_random_search,spear,50,68,0.000993048659384,"[0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 1]",50,0,50
+baseline_random_search,spear,50,69,0.00297914597815,"[0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1]",50,0,50
+baseline_random_search,spear,50,70,0.000993048659384,"[0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0]",50,0,50
+baseline_random_search,spear,50,71,0.00297914597815,"[0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1]",50,0,50
+baseline_random_search,spear,100,42,0.000993048659384,"[0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1]",100,0,100
+baseline_random_search,spear,100,43,0.0,"[0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1]",100,0,100
+baseline_random_search,spear,100,44,0.000993048659384,"[0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1]",100,0,100
+baseline_random_search,spear,100,45,0.000993048659384,"[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 1]",100,0,100
+baseline_random_search,spear,100,46,0.000993048659384,"[0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0]",100,0,100
+baseline_random_search,spear,100,47,0.000993048659384,"[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0]",100,0,100
+baseline_random_search,spear,100,48,0.000993048659384,"[0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1]",100,0,100
+baseline_random_search,spear,100,49,0.000993048659384,"[0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 0]",100,0,100
+baseline_random_search,spear,100,50,0.00198609731877,"[0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0]",100,0,100
+baseline_random_search,spear,100,51,0.0,"[0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1]",100,0,100
+baseline_random_search,spear,100,52,0.000993048659384,"[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0]",100,0,100
+baseline_random_search,spear,100,53,0.000993048659384,"[0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1]",100,0,100
+baseline_random_search,spear,100,54,0.000993048659384,"[0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0]",100,0,100
+baseline_random_search,spear,100,55,0.000993048659384,"[0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0]",100,0,100
+baseline_random_search,spear,100,56,0.00297914597815,"[0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0]",100,0,100
+baseline_random_search,spear,100,57,0.000993048659384,"[0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1]",100,0,100
+baseline_random_search,spear,100,58,0.000993048659384,"[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]",100,0,100
+baseline_random_search,spear,100,59,0.00198609731877,"[0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 1, 1, 0, 1]",100,0,100
+baseline_random_search,spear,100,60,0.000993048659384,"[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1]",100,0,100
+baseline_random_search,spear,100,61,0.00297914597815,"[0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0]",100,0,100
+baseline_random_search,spear,100,62,0.000993048659384,"[0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0]",100,0,100
+baseline_random_search,spear,100,63,0.000993048659384,"[0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 0]",100,0,100
+baseline_random_search,spear,100,64,0.000993048659384,"[0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1]",100,0,100
+baseline_random_search,spear,100,65,0.000993048659384,"[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1]",100,0,100
+baseline_random_search,spear,100,66,0.000993048659384,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0]",100,0,100
+baseline_random_search,spear,100,67,0.000993048659384,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]",100,0,100
+baseline_random_search,spear,100,68,0.000993048659384,"[0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 1]",100,0,100
+baseline_random_search,spear,100,69,0.000993048659384,"[0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1]",100,0,100
+baseline_random_search,spear,100,70,0.000993048659384,"[0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0]",100,0,100
+baseline_random_search,spear,100,71,0.000993048659384,"[0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1]",100,0,100
+baseline_random_search,storm,50,42,1.7702899054e-05,"[4, 1, 2, 1000000, 1, 1, 1000, 1000, 1024, 10000, 5, 29]",50,68,118
+baseline_random_search,storm,50,43,5.17469356963e-05,"[2, 10, 2, 1000000, 1, 0, 1000, 1000, 1024, 10000, 5, 29]",50,67,117
+baseline_random_search,storm,50,44,8.17056879415e-06,"[4, 10, 2, 1000000, 10, 0, 1, 10, 512, 100, 5, 29]",50,66,116
+baseline_random_search,storm,50,45,2.72352293138e-06,"[4, 1, 2, 1000000, 10, 0, 1, 10, 1024, 100, 5, 0]",50,77,127
+baseline_random_search,storm,50,46,4.22146054364e-05,"[2, 1, 4, 1000000, 1, 0, 1000, 10, 1024, 100, 2, 0]",50,110,160
+baseline_random_search,storm,50,47,0.0,"[4, 10, 4, 1000000, 10, 0, 1, 1000, 1024, 10000, 5, 29]",50,66,116
+baseline_random_search,storm,50,48,2.72352293138e-06,"[4, 1, 2, 1000000, 10, 0, 1, 10, 1024, 100, 5, 0]",50,68,118
+baseline_random_search,storm,50,49,0.0,"[4, 10, 4, 1000000, 1, 1, 1, 1000, 512, 10000, 5, 29]",50,78,128
+baseline_random_search,storm,50,50,8.17056879415e-05,"[4, 10, 4, 1000000, 1, 1, 1000, 1000, 1024, 10000, 2, 0]",50,59,109
+baseline_random_search,storm,50,51,2.72352293138e-06,"[4, 10, 4, 1000000, 10, 0, 1, 10, 512, 100, 5, 0]",50,59,109
+baseline_random_search,storm,50,52,0.0,"[4, 10, 4, 1000000, 10, 0, 1, 1000, 1024, 10000, 5, 29]",50,63,113
+baseline_random_search,storm,50,53,0.0,"[2, 1, 4, 1000000, 1, 1, 1, 10, 512, 100, 5, 0]",50,94,144
+baseline_random_search,storm,50,54,8.17056879415e-06,"[4, 1, 2, 1000000, 10, 0, 1, 10, 512, 100, 5, 29]",50,82,132
+baseline_random_search,storm,50,55,8.17056879415e-06,"[4, 1, 4, 1000000, 10, 1, 1, 1000, 1024, 10000, 5, 29]",50,42,92
+baseline_random_search,storm,50,56,0.0,"[4, 10, 4, 1000000, 1, 1, 1000, 1000, 512, 10000, 5, 29]",50,90,140
+baseline_random_search,storm,50,57,0.0,"[2, 1, 2, 1000000, 1, 0, 1, 1000, 512, 10000, 5, 0]",50,75,125
+baseline_random_search,storm,50,58,2.72352293138e-06,"[2, 10, 4, 1000000, 1, 0, 1000, 10, 512, 100, 2, 0]",50,72,122
+baseline_random_search,storm,50,59,1.36176146569e-05,"[4, 10, 2, 1000000, 10, 0, 1000, 1000, 512, 10000, 5, 0]",50,78,128
+baseline_random_search,storm,50,60,1.36176146569e-05,"[4, 10, 4, 1000000, 10, 0, 1, 1000, 1024, 10000, 5, 0]",50,85,135
+baseline_random_search,storm,50,61,5.44704586276e-06,"[4, 1, 4, 1000000, 10, 0, 1, 10, 512, 100, 5, 0]",50,85,135
+baseline_random_search,storm,50,62,1.36176146569e-06,"[4, 1, 2, 1000000, 10, 1, 1, 1000, 512, 10000, 5, 0]",50,82,132
+baseline_random_search,storm,50,63,7.62586420787e-05,"[4, 1, 2, 1000000, 10, 1, 1, 1000, 1024, 10000, 5, 29]",50,96,146
+baseline_random_search,storm,50,64,0.0,"[4, 10, 4, 1000000, 1, 1, 1000, 1000, 512, 10000, 5, 29]",50,82,132
+baseline_random_search,storm,50,65,0.0,"[4, 1, 2, 1000000, 10, 0, 1, 1000, 1024, 10000, 5, 0]",50,73,123
+baseline_random_search,storm,50,66,2.72352293138e-06,"[2, 10, 4, 1000000, 1, 0, 1000, 10, 512, 100, 2, 0]",50,72,122
+baseline_random_search,storm,50,67,2.72352293138e-06,"[4, 1, 2, 1000000, 10, 0, 1, 10, 1024, 100, 5, 0]",50,64,114
+baseline_random_search,storm,50,68,0.000133452623638,"[4, 1, 4, 1000000, 1, 1, 1000, 1000, 512, 10000, 2, 0]",50,67,117
+baseline_random_search,storm,50,69,2.17881834511e-05,"[4, 1, 2, 1000000, 1, 1, 1000, 10, 1024, 100, 2, 29]",50,80,130
+baseline_random_search,storm,50,70,8.17056879415e-06,"[4, 1, 2, 1000000, 1, 0, 1000, 1000, 1024, 10000, 5, 29]",50,60,110
+baseline_random_search,storm,50,71,0.000106217394324,"[2, 10, 2, 1000000, 1, 0, 1000, 10, 1024, 100, 2, 29]",50,98,148
+baseline_random_search,storm,100,42,1.08940917255e-05,"[2, 1, 2, 1000000, 1, 0, 1000, 10, 512, 100, 5, 29]",100,164,264
+baseline_random_search,storm,100,43,5.17469356963e-05,"[2, 10, 2, 1000000, 1, 0, 1000, 1000, 1024, 10000, 5, 29]",100,141,241
+baseline_random_search,storm,100,44,2.72352293138e-06,"[4, 10, 4, 1000000, 10, 1, 1, 1000, 1024, 10000, 5, 29]",100,171,271
+baseline_random_search,storm,100,45,0.0,"[4, 1, 2, 1000000, 10, 0, 1, 1000, 1024, 10000, 5, 0]",100,161,261
+baseline_random_search,storm,100,46,0.0,"[4, 1, 2, 1000000, 10, 0, 1, 1000, 1024, 10000, 5, 0]",100,181,281
+baseline_random_search,storm,100,47,0.0,"[4, 10, 4, 1000000, 10, 0, 1, 1000, 1024, 10000, 5, 29]",100,136,236
+baseline_random_search,storm,100,48,2.72352293138e-06,"[4, 1, 2, 1000000, 10, 0, 1, 10, 1024, 100, 5, 0]",100,128,228
+baseline_random_search,storm,100,49,0.0,"[4, 10, 4, 1000000, 1, 1, 1, 1000, 512, 10000, 5, 29]",100,153,253
+baseline_random_search,storm,100,50,0.0,"[2, 1, 4, 1000000, 1, 1, 1, 10, 512, 100, 5, 0]",100,130,230
+baseline_random_search,storm,100,51,0.0,"[2, 1, 4, 1000000, 1, 1, 1, 10, 1024, 100, 5, 29]",100,148,248
+baseline_random_search,storm,100,52,0.0,"[4, 10, 4, 1000000, 10, 0, 1, 1000, 1024, 10000, 5, 29]",100,152,252
+baseline_random_search,storm,100,53,0.0,"[2, 1, 4, 1000000, 1, 1, 1, 10, 512, 100, 5, 0]",100,165,265
+baseline_random_search,storm,100,54,0.0,"[2, 1, 4, 1000000, 1, 1, 1, 10, 512, 100, 5, 0]",100,159,259
+baseline_random_search,storm,100,55,8.17056879415e-06,"[4, 1, 4, 1000000, 10, 1, 1, 1000, 1024, 10000, 5, 29]",100,104,204
+baseline_random_search,storm,100,56,0.0,"[4, 10, 4, 1000000, 1, 1, 1000, 1000, 512, 10000, 5, 29]",100,178,278
+baseline_random_search,storm,100,57,0.0,"[2, 1, 2, 1000000, 1, 0, 1, 1000, 512, 10000, 5, 0]",100,156,256
+baseline_random_search,storm,100,58,2.72352293138e-06,"[2, 10, 4, 1000000, 1, 0, 1000, 10, 512, 100, 2, 0]",100,152,252
+baseline_random_search,storm,100,59,1.36176146569e-05,"[4, 10, 2, 1000000, 10, 0, 1000, 1000, 512, 10000, 5, 0]",100,163,263
+baseline_random_search,storm,100,60,0.0,"[4, 1, 4, 1000000, 10, 1, 1, 10, 1024, 100, 5, 29]",100,182,282
+baseline_random_search,storm,100,61,5.44704586276e-06,"[4, 1, 4, 1000000, 10, 0, 1, 10, 512, 100, 5, 0]",100,158,258
+baseline_random_search,storm,100,62,1.36176146569e-06,"[4, 1, 2, 1000000, 10, 1, 1, 1000, 512, 10000, 5, 0]",100,195,295
+baseline_random_search,storm,100,63,6.40027888875e-05,"[2, 10, 4, 1000000, 1, 1, 1000, 10, 512, 100, 2, 29]",100,179,279
+baseline_random_search,storm,100,64,0.0,"[4, 10, 4, 1000000, 1, 1, 1000, 1000, 512, 10000, 5, 29]",100,163,263
+baseline_random_search,storm,100,65,0.0,"[4, 1, 2, 1000000, 10, 0, 1, 1000, 1024, 10000, 5, 0]",100,153,253
+baseline_random_search,storm,100,66,2.72352293138e-06,"[2, 10, 4, 1000000, 1, 0, 1000, 10, 512, 100, 2, 0]",100,141,241
+baseline_random_search,storm,100,67,2.72352293138e-06,"[4, 1, 2, 1000000, 10, 0, 1, 10, 1024, 100, 5, 0]",100,141,241
+baseline_random_search,storm,100,68,5.3108697162e-05,"[4, 10, 2, 1000000, 10, 1, 1000, 1000, 1024, 10000, 2, 29]",100,146,246
+baseline_random_search,storm,100,69,2.17881834511e-05,"[4, 1, 2, 1000000, 1, 1, 1000, 10, 1024, 100, 2, 29]",100,176,276
+baseline_random_search,storm,100,70,8.17056879415e-06,"[4, 1, 2, 1000000, 1, 0, 1000, 1000, 1024, 10000, 5, 29]",100,146,246
+baseline_random_search,storm,100,71,0.0,"[2, 10, 2, 1000000, 1, 0, 1, 1000, 512, 10000, 5, 0]",100,156,256
+baseline_random_search,x264,50,42,22.996,"[4, 1, 1, 1, 1, 0, 0, 1, 1, 0]",50,0,50
+baseline_random_search,x264,50,43,23.206,"[4, 1, 1, 0, 1, 1, 1, 0, 0, 1]",50,0,50
+baseline_random_search,x264,50,44,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",50,0,50
+baseline_random_search,x264,50,45,21.906,"[4, 1, 1, 1, 1, 1, 1, 0, 1, 1]",50,0,50
+baseline_random_search,x264,50,46,23.72,"[4, 1, 1, 0, 0, 1, 1, 0, 1, 1]",50,0,50
+baseline_random_search,x264,50,47,23.49,"[4, 1, 1, 1, 0, 1, 0, 1, 0, 0]",50,0,50
+baseline_random_search,x264,50,48,23.178,"[4, 1, 1, 1, 1, 1, 1, 1, 0, 0]",50,0,50
+baseline_random_search,x264,50,49,22.984,"[4, 1, 3, 1, 1, 0, 0, 0, 0, 0]",50,0,50
+baseline_random_search,x264,50,50,23.416,"[4, 1, 3, 1, 1, 1, 1, 1, 1, 1]",50,0,50
+baseline_random_search,x264,50,51,22.248,"[4, 1, 1, 1, 0, 0, 0, 0, 1, 1]",50,0,50
+baseline_random_search,x264,50,52,23.192,"[4, 1, 1, 1, 1, 0, 1, 1, 0, 1]",50,0,50
+baseline_random_search,x264,50,53,21.97,"[4, 1, 1, 1, 1, 1, 0, 0, 1, 1]",50,0,50
+baseline_random_search,x264,50,54,22.492,"[4, 1, 1, 1, 0, 0, 1, 0, 1, 0]",50,0,50
+baseline_random_search,x264,50,55,23.204,"[4, 1, 3, 1, 1, 1, 0, 0, 0, 1]",50,0,50
+baseline_random_search,x264,50,56,22.312,"[4, 1, 2, 1, 1, 0, 0, 0, 0, 0]",50,0,50
+baseline_random_search,x264,50,57,22.874,"[4, 1, 2, 1, 0, 0, 0, 0, 0, 0]",50,0,50
+baseline_random_search,x264,50,58,22.982,"[4, 1, 3, 1, 1, 0, 0, 0, 0, 1]",50,0,50
+baseline_random_search,x264,50,59,22.664,"[4, 1, 2, 1, 1, 1, 1, 0, 1, 1]",50,0,50
+baseline_random_search,x264,50,60,23.2,"[4, 1, 2, 1, 0, 1, 0, 0, 0, 0]",50,0,50
+baseline_random_search,x264,50,61,23.39,"[4, 1, 2, 1, 1, 1, 0, 1, 0, 1]",50,0,50
+baseline_random_search,x264,50,62,23.178,"[4, 1, 3, 1, 1, 1, 1, 1, 0, 0]",50,0,50
+baseline_random_search,x264,50,63,23.326,"[4, 1, 3, 1, 1, 1, 0, 1, 1, 1]",50,0,50
+baseline_random_search,x264,50,64,23.264,"[4, 1, 2, 1, 1, 0, 1, 1, 0, 1]",50,0,50
+baseline_random_search,x264,50,65,22.794,"[4, 1, 1, 1, 1, 0, 0, 1, 0, 0]",50,0,50
+baseline_random_search,x264,50,66,23.034,"[4, 1, 1, 1, 0, 0, 1, 0, 0, 0]",50,0,50
+baseline_random_search,x264,50,67,23.106,"[4, 1, 2, 1, 0, 1, 0, 0, 0, 1]",50,0,50
+baseline_random_search,x264,50,68,23.186,"[4, 1, 1, 0, 1, 0, 0, 0, 0, 1]",50,0,50
+baseline_random_search,x264,50,69,23.034,"[4, 1, 1, 1, 0, 0, 1, 0, 0, 0]",50,0,50
+baseline_random_search,x264,50,70,22.018,"[4, 1, 1, 1, 1, 0, 1, 0, 0, 0]",50,0,50
+baseline_random_search,x264,50,71,22.746,"[4, 1, 1, 1, 0, 1, 1, 0, 0, 0]",50,0,50
+baseline_random_search,x264,100,42,22.996,"[4, 1, 1, 1, 1, 0, 0, 1, 1, 0]",100,0,100
+baseline_random_search,x264,100,43,22.984,"[4, 1, 3, 1, 1, 0, 0, 0, 0, 0]",100,0,100
+baseline_random_search,x264,100,44,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",100,0,100
+baseline_random_search,x264,100,45,21.906,"[4, 1, 1, 1, 1, 1, 1, 0, 1, 1]",100,0,100
+baseline_random_search,x264,100,46,22.816,"[4, 1, 2, 1, 1, 1, 1, 0, 0, 1]",100,0,100
+baseline_random_search,x264,100,47,22.432,"[4, 1, 2, 1, 1, 0, 1, 0, 1, 1]",100,0,100
+baseline_random_search,x264,100,48,23.178,"[4, 1, 1, 1, 1, 1, 1, 1, 0, 0]",100,0,100
+baseline_random_search,x264,100,49,22.984,"[4, 1, 3, 1, 1, 0, 0, 0, 0, 0]",100,0,100
+baseline_random_search,x264,100,50,23.206,"[4, 1, 1, 0, 1, 1, 1, 0, 0, 1]",100,0,100
+baseline_random_search,x264,100,51,22.248,"[4, 1, 1, 1, 0, 0, 0, 0, 1, 1]",100,0,100
+baseline_random_search,x264,100,52,21.758,"[4, 1, 1, 1, 1, 0, 1, 0, 0, 1]",100,0,100
+baseline_random_search,x264,100,53,21.906,"[4, 1, 1, 1, 1, 1, 1, 0, 1, 1]",100,0,100
+baseline_random_search,x264,100,54,22.492,"[4, 1, 1, 1, 0, 0, 1, 0, 1, 0]",100,0,100
+baseline_random_search,x264,100,55,22.984,"[4, 1, 3, 1, 1, 0, 0, 0, 0, 0]",100,0,100
+baseline_random_search,x264,100,56,22.312,"[4, 1, 2, 1, 1, 0, 0, 0, 0, 0]",100,0,100
+baseline_random_search,x264,100,57,22.874,"[4, 1, 2, 1, 0, 0, 0, 0, 0, 0]",100,0,100
+baseline_random_search,x264,100,58,22.982,"[4, 1, 3, 1, 1, 0, 0, 0, 0, 1]",100,0,100
+baseline_random_search,x264,100,59,22.664,"[4, 1, 2, 1, 1, 1, 1, 0, 1, 1]",100,0,100
+baseline_random_search,x264,100,60,23.148,"[4, 1, 2, 1, 0, 0, 0, 0, 1, 0]",100,0,100
+baseline_random_search,x264,100,61,21.942,"[4, 1, 1, 1, 1, 1, 1, 0, 0, 0]",100,0,100
+baseline_random_search,x264,100,62,21.758,"[4, 1, 1, 1, 1, 0, 1, 0, 0, 1]",100,0,100
+baseline_random_search,x264,100,63,23.184,"[4, 1, 2, 1, 0, 0, 1, 0, 1, 1]",100,0,100
+baseline_random_search,x264,100,64,22.984,"[4, 1, 3, 1, 1, 0, 0, 0, 0, 0]",100,0,100
+baseline_random_search,x264,100,65,22.794,"[4, 1, 1, 1, 1, 0, 0, 1, 0, 0]",100,0,100
+baseline_random_search,x264,100,66,23.034,"[4, 1, 1, 1, 0, 0, 1, 0, 0, 0]",100,0,100
+baseline_random_search,x264,100,67,22.452,"[4, 1, 2, 1, 1, 1, 0, 0, 1, 1]",100,0,100
+baseline_random_search,x264,100,68,22.982,"[4, 1, 3, 1, 1, 0, 0, 0, 0, 1]",100,0,100
+baseline_random_search,x264,100,69,23.034,"[4, 1, 1, 1, 0, 0, 1, 0, 0, 0]",100,0,100
+baseline_random_search,x264,100,70,22.018,"[4, 1, 1, 1, 1, 0, 1, 0, 0, 0]",100,0,100
+baseline_random_search,x264,100,71,22.746,"[4, 1, 1, 1, 0, 1, 1, 0, 0, 0]",100,0,100
+bestconfig,7z,50,42,4196.4,"[2, 0, 1, 0, 0, 100, 64, 4]",50,0,50
+bestconfig,7z,50,43,8884.4,"[4, 0, 1, 0, 0, 70, 4096, 0]",50,0,50
+bestconfig,7z,50,44,8922.6,"[4, 1, 1, 0, 0, 60, 128, 2]",50,0,50
+bestconfig,7z,50,45,8883.0,"[4, 1, 1, 0, 1, 90, 4096, 2]",50,0,50
+bestconfig,7z,50,46,8938.6,"[4, 1, 1, 0, 0, 60, 32, 2]",50,0,50
+bestconfig,7z,50,47,9079.4,"[5, 0, 1, 0, 1, 20, 64, 4]",50,0,50
+bestconfig,7z,50,48,8891.4,"[4, 0, 1, 0, 1, 70, 2048, 0]",50,0,50
+bestconfig,7z,50,49,8893.6,"[4, 0, 1, 0, 1, 100, 128, 0]",50,0,50
+bestconfig,7z,50,50,5048.8,"[2, 0, 0, 0, 0, 20, 2048, 0]",50,0,50
+bestconfig,7z,50,51,8884.4,"[4, 0, 1, 0, 0, 70, 4096, 0]",50,0,50
+bestconfig,7z,50,52,8922.6,"[4, 0, 1, 0, 0, 60, 4096, 0]",50,0,50
+bestconfig,7z,50,53,4797.6,"[2, 0, 0, 0, 1, 60, 32, 0]",50,0,50
+bestconfig,7z,50,54,8922.6,"[4, 0, 1, 0, 0, 60, 4096, 0]",50,0,50
+bestconfig,7z,50,55,8887.8,"[4, 0, 1, 0, 0, 80, 2048, 2]",50,0,50
+bestconfig,7z,50,56,8893.8,"[4, 1, 1, 0, 1, 100, 128, 2]",50,0,50
+bestconfig,7z,50,57,4685.4,"[2, 1, 0, 0, 0, 90, 256, 0]",50,0,50
+bestconfig,7z,50,58,4843.6,"[2, 1, 1, 0, 1, 30, 64, 0]",50,0,50
+bestconfig,7z,50,59,9103.6,"[5, 1, 1, 1, 0, 10, 256, 0]",50,0,50
+bestconfig,7z,50,60,4275.6,"[2, 0, 1, 0, 1, 80, 512, 4]",50,0,50
+bestconfig,7z,50,61,9010.6,"[4, 0, 0, 0, 0, 50, 16, 2]",50,0,50
+bestconfig,7z,50,62,4685.6,"[2, 1, 1, 0, 1, 60, 128, 0]",50,0,50
+bestconfig,7z,50,63,9104.8,"[5, 0, 1, 0, 1, 40, 16, 4]",50,0,50
+bestconfig,7z,50,64,9076.8,"[5, 0, 1, 0, 1, 70, 1, 0]",50,0,50
+bestconfig,7z,50,65,4915.0,"[2, 0, 0, 0, 1, 100, 16, 2]",50,0,50
+bestconfig,7z,50,66,8885.6,"[4, 1, 1, 0, 1, 70, 256, 2]",50,0,50
+bestconfig,7z,50,67,4276.6,"[2, 0, 1, 0, 0, 80, 512, 4]",50,0,50
+bestconfig,7z,50,68,8882.0,"[4, 1, 1, 0, 0, 70, 512, 2]",50,0,50
+bestconfig,7z,50,69,8899.2,"[4, 0, 1, 0, 1, 70, 2048, 2]",50,0,50
+bestconfig,7z,50,70,4843.6,"[2, 1, 1, 0, 1, 30, 64, 0]",50,0,50
+bestconfig,7z,50,71,8909.6,"[4, 1, 1, 0, 0, 90, 32, 2]",50,0,50
+bestconfig,7z,100,42,4196.4,"[2, 0, 1, 0, 0, 100, 64, 4]",100,0,100
+bestconfig,7z,100,43,8884.4,"[4, 0, 1, 0, 0, 70, 4096, 0]",100,0,100
+bestconfig,7z,100,44,8884.4,"[4, 1, 1, 0, 0, 70, 128, 0]",100,0,100
+bestconfig,7z,100,45,4645.6,"[2, 0, 1, 0, 0, 100, 4096, 0]",100,0,100
+bestconfig,7z,100,46,8903.6,"[4, 1, 1, 0, 0, 70, 64, 2]",100,0,100
+bestconfig,7z,100,47,4691.2,"[2, 0, 1, 0, 1, 90, 32, 2]",100,0,100
+bestconfig,7z,100,48,8891.4,"[4, 0, 1, 0, 1, 70, 2048, 0]",100,0,100
+bestconfig,7z,100,49,8886.8,"[4, 0, 1, 0, 0, 90, 256, 0]",100,0,100
+bestconfig,7z,100,50,4822.6,"[2, 0, 1, 0, 0, 30, 1024, 0]",100,0,100
+bestconfig,7z,100,51,8884.4,"[4, 0, 1, 0, 0, 70, 4096, 0]",100,0,100
+bestconfig,7z,100,52,8884.4,"[4, 0, 1, 0, 0, 70, 4096, 0]",100,0,100
+bestconfig,7z,100,53,4374.2,"[2, 1, 0, 0, 0, 60, 64, 4]",100,0,100
+bestconfig,7z,100,54,8884.4,"[4, 0, 1, 0, 0, 70, 4096, 0]",100,0,100
+bestconfig,7z,100,55,8887.8,"[4, 0, 1, 0, 0, 80, 2048, 2]",100,0,100
+bestconfig,7z,100,56,4271.2,"[2, 1, 1, 0, 1, 80, 1024, 4]",100,0,100
+bestconfig,7z,100,57,4652.8,"[2, 1, 1, 0, 0, 90, 256, 0]",100,0,100
+bestconfig,7z,100,58,4822.0,"[2, 0, 1, 0, 0, 30, 128, 0]",100,0,100
+bestconfig,7z,100,59,4292.8,"[2, 0, 1, 0, 0, 80, 1024, 4]",100,0,100
+bestconfig,7z,100,60,4275.6,"[2, 0, 1, 0, 1, 80, 512, 4]",100,0,100
+bestconfig,7z,100,61,8915.2,"[4, 1, 1, 0, 0, 70, 32, 2]",100,0,100
+bestconfig,7z,100,62,4685.6,"[2, 1, 1, 0, 1, 60, 128, 0]",100,0,100
+bestconfig,7z,100,63,9095.2,"[5, 0, 1, 0, 0, 50, 32, 4]",100,0,100
+bestconfig,7z,100,64,9076.8,"[5, 0, 1, 0, 1, 70, 1, 0]",100,0,100
+bestconfig,7z,100,65,4196.4,"[2, 0, 1, 0, 0, 100, 64, 4]",100,0,100
+bestconfig,7z,100,66,8885.6,"[4, 1, 1, 0, 1, 70, 256, 2]",100,0,100
+bestconfig,7z,100,67,4275.6,"[2, 0, 1, 0, 1, 80, 512, 4]",100,0,100
+bestconfig,7z,100,68,4302.6,"[2, 0, 1, 0, 1, 80, 128, 4]",100,0,100
+bestconfig,7z,100,69,8887.4,"[4, 0, 1, 0, 0, 70, 4096, 2]",100,0,100
+bestconfig,7z,100,70,4546.4,"[2, 0, 1, 0, 0, 30, 64, 4]",100,0,100
+bestconfig,7z,100,71,8886.8,"[4, 1, 1, 0, 0, 90, 64, 2]",100,0,100
+bestconfig,Apache,50,42,31.1622,"[1, 1, 2, 0, 0, 0, 4096, 0]",50,43,93
+bestconfig,Apache,50,43,30.7448,"[0, 1, 2, 1, 0, 0, 512, 0]",50,66,116
+bestconfig,Apache,50,44,30.7448,"[0, 1, 2, 1, 0, 0, 512, 0]",50,45,95
+bestconfig,Apache,50,45,30.7448,"[0, 1, 2, 1, 0, 0, 512, 0]",50,79,129
+bestconfig,Apache,50,46,30.7448,"[0, 1, 2, 1, 0, 0, 512, 0]",50,83,133
+bestconfig,Apache,50,47,30.8186,"[0, 1, 2, 2, 1, 0, 512, 0]",50,49,99
+bestconfig,Apache,50,48,31.1982,"[0, 1, 2, 0, 0, 1, 512, 0]",50,36,86
+bestconfig,Apache,50,49,162.5806,"[0, 2, 2, 0, 1, 0, 512, 1]",50,55,105
+bestconfig,Apache,50,50,30.8186,"[0, 1, 2, 2, 1, 0, 512, 0]",50,68,118
+bestconfig,Apache,50,51,30.8186,"[0, 1, 2, 2, 1, 0, 512, 0]",50,45,95
+bestconfig,Apache,50,52,30.7448,"[0, 1, 2, 1, 0, 0, 512, 0]",50,50,100
+bestconfig,Apache,50,53,31.1622,"[1, 1, 2, 0, 0, 0, 4096, 0]",50,51,101
+bestconfig,Apache,50,54,30.7448,"[0, 1, 2, 1, 0, 0, 512, 0]",50,68,118
+bestconfig,Apache,50,55,30.8186,"[0, 1, 2, 2, 1, 0, 512, 0]",50,51,101
+bestconfig,Apache,50,56,31.0888,"[0, 1, 2, 2, 1, 0, 1024, 0]",50,52,102
+bestconfig,Apache,50,57,31.0946,"[0, 1, 2, 0, 1, 0, 512, 0]",50,31,81
+bestconfig,Apache,50,58,31.1622,"[1, 1, 2, 0, 0, 0, 4096, 0]",50,69,119
+bestconfig,Apache,50,59,31.1622,"[1, 1, 2, 0, 0, 0, 4096, 0]",50,62,112
+bestconfig,Apache,50,60,31.6904,"[0, 1, 2, 0, 1, 0, 4096, 0]",50,29,79
+bestconfig,Apache,50,61,30.8186,"[0, 1, 2, 2, 1, 0, 512, 0]",50,51,101
+bestconfig,Apache,50,62,31.832,"[0, 1, 2, 2, 1, 1, 2048, 0]",50,56,106
+bestconfig,Apache,50,63,162.5806,"[0, 2, 2, 0, 1, 0, 512, 1]",50,54,104
+bestconfig,Apache,50,64,30.8186,"[0, 1, 2, 2, 1, 0, 512, 0]",50,43,93
+bestconfig,Apache,50,65,30.8186,"[0, 1, 2, 2, 1, 0, 512, 0]",50,27,77
+bestconfig,Apache,50,66,30.8186,"[0, 1, 2, 2, 1, 0, 512, 0]",50,57,107
+bestconfig,Apache,50,67,31.3372,"[0, 1, 2, 2, 1, 0, 4096, 0]",50,70,120
+bestconfig,Apache,50,68,31.7572,"[0, 1, 2, 0, 1, 1, 4096, 0]",50,68,118
+bestconfig,Apache,50,69,31.6514,"[0, 1, 2, 0, 0, 0, 2048, 0]",50,32,82
+bestconfig,Apache,50,70,31.1982,"[0, 1, 2, 0, 0, 1, 512, 0]",50,57,107
+bestconfig,Apache,50,71,31.6254,"[0, 1, 2, 0, 1, 0, 2048, 0]",50,36,86
+bestconfig,Apache,100,42,31.1622,"[1, 1, 2, 0, 0, 0, 4096, 0]",100,121,221
+bestconfig,Apache,100,43,30.7448,"[0, 1, 2, 1, 0, 0, 512, 0]",100,161,261
+bestconfig,Apache,100,44,30.7448,"[0, 1, 2, 1, 0, 0, 512, 0]",100,145,245
+bestconfig,Apache,100,45,30.7448,"[0, 1, 2, 1, 0, 0, 512, 0]",100,185,285
+bestconfig,Apache,100,46,30.7448,"[0, 1, 2, 1, 0, 0, 512, 0]",100,202,302
+bestconfig,Apache,100,47,30.7448,"[0, 1, 2, 1, 0, 0, 512, 0]",100,159,259
+bestconfig,Apache,100,48,30.7448,"[0, 1, 2, 1, 0, 0, 512, 0]",100,112,212
+bestconfig,Apache,100,49,31.1622,"[1, 1, 2, 0, 0, 0, 4096, 0]",100,128,228
+bestconfig,Apache,100,50,30.7448,"[0, 1, 2, 1, 0, 0, 512, 0]",100,164,264
+bestconfig,Apache,100,51,30.7448,"[0, 1, 2, 1, 0, 0, 512, 0]",100,174,274
+bestconfig,Apache,100,52,30.7448,"[0, 1, 2, 1, 0, 0, 512, 0]",100,156,256
+bestconfig,Apache,100,53,30.7448,"[0, 1, 2, 1, 0, 0, 512, 0]",100,102,202
+bestconfig,Apache,100,54,30.7448,"[0, 1, 2, 1, 0, 0, 512, 0]",100,212,312
+bestconfig,Apache,100,55,30.7448,"[0, 1, 2, 1, 0, 0, 512, 0]",100,176,276
+bestconfig,Apache,100,56,30.7448,"[0, 1, 2, 1, 0, 0, 512, 0]",100,170,270
+bestconfig,Apache,100,57,30.7448,"[0, 1, 2, 1, 0, 0, 512, 0]",100,100,200
+bestconfig,Apache,100,58,31.1622,"[1, 1, 2, 0, 0, 0, 4096, 0]",100,128,228
+bestconfig,Apache,100,59,30.7448,"[0, 1, 2, 1, 0, 0, 512, 0]",100,134,234
+bestconfig,Apache,100,60,31.1622,"[1, 1, 2, 0, 0, 0, 4096, 0]",100,96,196
+bestconfig,Apache,100,61,30.7448,"[0, 1, 2, 1, 0, 0, 512, 0]",100,122,222
+bestconfig,Apache,100,62,30.8186,"[0, 1, 2, 2, 1, 0, 512, 0]",100,125,225
+bestconfig,Apache,100,63,30.7448,"[0, 1, 2, 1, 0, 0, 512, 0]",100,128,228
+bestconfig,Apache,100,64,30.7448,"[0, 1, 2, 1, 0, 0, 512, 0]",100,137,237
+bestconfig,Apache,100,65,30.7448,"[0, 1, 2, 1, 0, 0, 512, 0]",100,111,211
+bestconfig,Apache,100,66,30.7448,"[0, 1, 2, 1, 0, 0, 512, 0]",100,162,262
+bestconfig,Apache,100,67,30.7448,"[0, 1, 2, 1, 0, 0, 512, 0]",100,115,215
+bestconfig,Apache,100,68,31.1622,"[1, 1, 2, 0, 0, 0, 4096, 0]",100,125,225
+bestconfig,Apache,100,69,31.1622,"[1, 1, 2, 0, 0, 0, 4096, 0]",100,105,205
+bestconfig,Apache,100,70,30.7448,"[0, 1, 2, 1, 0, 0, 512, 0]",100,123,223
+bestconfig,Apache,100,71,31.1622,"[1, 1, 2, 0, 0, 0, 4096, 0]",100,112,212
+bestconfig,LLVM,50,42,58718.2,"[0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1]",50,0,50
+bestconfig,LLVM,50,43,54945.0,"[0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0]",50,0,50
+bestconfig,LLVM,50,44,57058.6,"[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]",50,0,50
+bestconfig,LLVM,50,45,58752.2,"[0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1]",50,0,50
+bestconfig,LLVM,50,46,60271.4,"[0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1]",50,0,50
+bestconfig,LLVM,50,47,52324.8,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]",50,0,50
+bestconfig,LLVM,50,48,55162.2,"[0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]",50,0,50
+bestconfig,LLVM,50,49,59982.0,"[0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1]",50,0,50
+bestconfig,LLVM,50,50,56966.8,"[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1]",50,0,50
+bestconfig,LLVM,50,51,55246.6,"[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0]",50,0,50
+bestconfig,LLVM,50,52,58987.4,"[0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1]",50,0,50
+bestconfig,LLVM,50,53,56400.0,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0]",50,0,50
+bestconfig,LLVM,50,54,60030.8,"[0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1]",50,0,50
+bestconfig,LLVM,50,55,58281.8,"[0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1]",50,0,50
+bestconfig,LLVM,50,56,58698.4,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]",50,0,50
+bestconfig,LLVM,50,57,57058.6,"[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]",50,0,50
+bestconfig,LLVM,50,58,57982.6,"[0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0]",50,0,50
+bestconfig,LLVM,50,59,57216.4,"[1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]",50,0,50
+bestconfig,LLVM,50,60,55162.2,"[0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]",50,0,50
+bestconfig,LLVM,50,61,56316.4,"[0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]",50,0,50
+bestconfig,LLVM,50,62,57058.6,"[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]",50,0,50
+bestconfig,LLVM,50,63,56400.0,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0]",50,0,50
+bestconfig,LLVM,50,64,55001.2,"[1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",50,0,50
+bestconfig,LLVM,50,65,56303.6,"[0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]",50,0,50
+bestconfig,LLVM,50,66,56400.0,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0]",50,0,50
+bestconfig,LLVM,50,67,56966.8,"[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1]",50,0,50
+bestconfig,LLVM,50,68,53380.6,"[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]",50,0,50
+bestconfig,LLVM,50,69,57008.0,"[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1]",50,0,50
+bestconfig,LLVM,50,70,60211.8,"[0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1]",50,0,50
+bestconfig,LLVM,50,71,57335.0,"[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0]",50,0,50
+bestconfig,LLVM,100,42,57008.0,"[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1]",100,0,100
+bestconfig,LLVM,100,43,52324.8,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,LLVM,100,44,52285.4,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",100,0,100
+bestconfig,LLVM,100,45,53429.4,"[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,LLVM,100,46,56382.6,"[0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,LLVM,100,47,52285.4,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",100,0,100
+bestconfig,LLVM,100,48,52285.4,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",100,0,100
+bestconfig,LLVM,100,49,57058.6,"[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]",100,0,100
+bestconfig,LLVM,100,50,52285.4,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",100,0,100
+bestconfig,LLVM,100,51,52285.4,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",100,0,100
+bestconfig,LLVM,100,52,57058.6,"[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]",100,0,100
+bestconfig,LLVM,100,53,52285.4,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",100,0,100
+bestconfig,LLVM,100,54,57008.0,"[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1]",100,0,100
+bestconfig,LLVM,100,55,53429.4,"[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,LLVM,100,56,53887.2,"[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",100,0,100
+bestconfig,LLVM,100,57,52285.4,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",100,0,100
+bestconfig,LLVM,100,58,52324.8,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,LLVM,100,59,53887.2,"[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",100,0,100
+bestconfig,LLVM,100,60,52285.4,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",100,0,100
+bestconfig,LLVM,100,61,52285.4,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",100,0,100
+bestconfig,LLVM,100,62,52285.4,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",100,0,100
+bestconfig,LLVM,100,63,52285.4,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",100,0,100
+bestconfig,LLVM,100,64,52285.4,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",100,0,100
+bestconfig,LLVM,100,65,52285.4,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",100,0,100
+bestconfig,LLVM,100,66,52285.4,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",100,0,100
+bestconfig,LLVM,100,67,52324.8,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,LLVM,100,68,52285.4,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",100,0,100
+bestconfig,LLVM,100,69,53429.4,"[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,LLVM,100,70,56966.8,"[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1]",100,0,100
+bestconfig,LLVM,100,71,52285.4,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",100,0,100
+bestconfig,PostgreSQL,50,42,46039.0,"[0, 1, 0, 0, 0, 256, 32, 4096]",50,0,50
+bestconfig,PostgreSQL,50,43,46054.6,"[0, 1, 0, 0, 1, 64, 8, 1024]",50,0,50
+bestconfig,PostgreSQL,50,44,46078.8,"[0, 0, 1, 0, 0, 128, 32, 256]",50,0,50
+bestconfig,PostgreSQL,50,45,45980.8,"[0, 1, 0, 0, 0, 128, 8, 1024]",50,0,50
+bestconfig,PostgreSQL,50,46,45980.8,"[0, 1, 0, 0, 0, 128, 8, 1024]",50,0,50
+bestconfig,PostgreSQL,50,47,45922.8,"[0, 1, 1, 0, 0, 64, 8, 256]",50,0,50
+bestconfig,PostgreSQL,50,48,46097.4,"[0, 0, 1, 0, 0, 64, 2, 256]",50,0,50
+bestconfig,PostgreSQL,50,49,46078.8,"[0, 0, 1, 0, 0, 128, 32, 256]",50,0,50
+bestconfig,PostgreSQL,50,50,46064.6,"[0, 0, 1, 0, 1, 256, 8, 256]",50,0,50
+bestconfig,PostgreSQL,50,51,46022.8,"[0, 1, 0, 0, 0, 128, 2, 256]",50,0,50
+bestconfig,PostgreSQL,50,52,46143.4,"[0, 0, 1, 0, 0, 256, 2, 4096]",50,0,50
+bestconfig,PostgreSQL,50,53,45939.8,"[0, 0, 1, 0, 1, 256, 32, 1024]",50,0,50
+bestconfig,PostgreSQL,50,54,46064.6,"[0, 0, 1, 0, 1, 256, 8, 256]",50,0,50
+bestconfig,PostgreSQL,50,55,45939.8,"[0, 0, 1, 0, 1, 256, 32, 1024]",50,0,50
+bestconfig,PostgreSQL,50,56,46064.6,"[0, 0, 1, 0, 1, 256, 8, 256]",50,0,50
+bestconfig,PostgreSQL,50,57,46095.0,"[0, 0, 1, 0, 0, 64, 2, 4096]",50,0,50
+bestconfig,PostgreSQL,50,58,46039.0,"[0, 1, 0, 0, 0, 256, 32, 4096]",50,0,50
+bestconfig,PostgreSQL,50,59,46022.8,"[0, 1, 0, 0, 0, 128, 2, 256]",50,0,50
+bestconfig,PostgreSQL,50,60,46096.4,"[0, 1, 0, 0, 0, 256, 2, 4096]",50,0,50
+bestconfig,PostgreSQL,50,61,46108.2,"[0, 0, 0, 0, 1, 128, 2, 4096]",50,0,50
+bestconfig,PostgreSQL,50,62,46039.0,"[0, 1, 0, 0, 0, 256, 32, 4096]",50,0,50
+bestconfig,PostgreSQL,50,63,45922.8,"[0, 1, 1, 0, 0, 64, 8, 256]",50,0,50
+bestconfig,PostgreSQL,50,64,46083.6,"[0, 1, 1, 0, 1, 256, 2, 256]",50,0,50
+bestconfig,PostgreSQL,50,65,46078.8,"[0, 0, 1, 0, 0, 128, 32, 256]",50,0,50
+bestconfig,PostgreSQL,50,66,46099.4,"[0, 1, 0, 0, 1, 128, 2, 1024]",50,0,50
+bestconfig,PostgreSQL,50,67,46099.4,"[0, 1, 0, 0, 1, 128, 2, 1024]",50,0,50
+bestconfig,PostgreSQL,50,68,46035.0,"[0, 0, 0, 0, 1, 128, 32, 256]",50,0,50
+bestconfig,PostgreSQL,50,69,46064.6,"[0, 0, 1, 0, 1, 256, 8, 256]",50,0,50
+bestconfig,PostgreSQL,50,70,46022.8,"[0, 1, 0, 0, 0, 128, 2, 256]",50,0,50
+bestconfig,PostgreSQL,50,71,45939.8,"[0, 0, 1, 0, 1, 256, 32, 1024]",50,0,50
+bestconfig,PostgreSQL,100,42,45980.8,"[0, 1, 0, 0, 0, 128, 8, 1024]",100,0,100
+bestconfig,PostgreSQL,100,43,46054.6,"[0, 1, 0, 0, 1, 64, 8, 1024]",100,0,100
+bestconfig,PostgreSQL,100,44,45939.8,"[0, 0, 1, 0, 1, 256, 32, 1024]",100,0,100
+bestconfig,PostgreSQL,100,45,45980.8,"[0, 1, 0, 0, 0, 128, 8, 1024]",100,0,100
+bestconfig,PostgreSQL,100,46,45980.8,"[0, 1, 0, 0, 0, 128, 8, 1024]",100,0,100
+bestconfig,PostgreSQL,100,47,45922.8,"[0, 1, 1, 0, 0, 64, 8, 256]",100,0,100
+bestconfig,PostgreSQL,100,48,46097.4,"[0, 0, 1, 0, 0, 64, 2, 256]",100,0,100
+bestconfig,PostgreSQL,100,49,45939.8,"[0, 0, 1, 0, 1, 256, 32, 1024]",100,0,100
+bestconfig,PostgreSQL,100,50,45939.8,"[0, 0, 1, 0, 1, 256, 32, 1024]",100,0,100
+bestconfig,PostgreSQL,100,51,46022.8,"[0, 1, 0, 0, 0, 128, 2, 256]",100,0,100
+bestconfig,PostgreSQL,100,52,46073.6,"[0, 0, 0, 0, 1, 64, 32, 4096]",100,0,100
+bestconfig,PostgreSQL,100,53,45939.8,"[0, 0, 1, 0, 1, 256, 32, 1024]",100,0,100
+bestconfig,PostgreSQL,100,54,46035.0,"[0, 0, 0, 0, 1, 128, 32, 256]",100,0,100
+bestconfig,PostgreSQL,100,55,45939.8,"[0, 0, 1, 0, 1, 256, 32, 1024]",100,0,100
+bestconfig,PostgreSQL,100,56,46064.6,"[0, 0, 1, 0, 1, 256, 8, 256]",100,0,100
+bestconfig,PostgreSQL,100,57,46070.8,"[0, 0, 0, 0, 1, 256, 32, 4096]",100,0,100
+bestconfig,PostgreSQL,100,58,46039.0,"[0, 1, 0, 0, 0, 256, 32, 4096]",100,0,100
+bestconfig,PostgreSQL,100,59,46022.8,"[0, 1, 0, 0, 0, 128, 2, 256]",100,0,100
+bestconfig,PostgreSQL,100,60,46078.8,"[0, 0, 1, 0, 0, 128, 32, 256]",100,0,100
+bestconfig,PostgreSQL,100,61,46039.0,"[0, 1, 0, 0, 0, 256, 32, 4096]",100,0,100
+bestconfig,PostgreSQL,100,62,46039.0,"[0, 1, 0, 0, 0, 256, 32, 4096]",100,0,100
+bestconfig,PostgreSQL,100,63,45922.8,"[0, 1, 1, 0, 0, 64, 8, 256]",100,0,100
+bestconfig,PostgreSQL,100,64,46064.6,"[0, 0, 1, 0, 1, 256, 8, 256]",100,0,100
+bestconfig,PostgreSQL,100,65,46022.8,"[0, 1, 0, 0, 0, 128, 2, 256]",100,0,100
+bestconfig,PostgreSQL,100,66,45980.8,"[0, 1, 0, 0, 0, 128, 8, 1024]",100,0,100
+bestconfig,PostgreSQL,100,67,45980.8,"[0, 1, 0, 0, 0, 128, 8, 1024]",100,0,100
+bestconfig,PostgreSQL,100,68,46035.0,"[0, 0, 0, 0, 1, 128, 32, 256]",100,0,100
+bestconfig,PostgreSQL,100,69,45939.8,"[0, 0, 1, 0, 1, 256, 32, 1024]",100,0,100
+bestconfig,PostgreSQL,100,70,45922.8,"[0, 1, 1, 0, 0, 64, 8, 256]",100,0,100
+bestconfig,PostgreSQL,100,71,45939.8,"[0, 0, 1, 0, 1, 256, 32, 1024]",100,0,100
+bestconfig,brotli,50,42,1.556,"[23, 0]",50,0,50
+bestconfig,brotli,50,43,1.46,"[14, 1]",50,0,50
+bestconfig,brotli,50,44,1.46,"[14, 1]",50,0,50
+bestconfig,brotli,50,45,1.46,"[14, 1]",50,0,50
+bestconfig,brotli,50,46,1.46,"[14, 1]",50,0,50
+bestconfig,brotli,50,47,1.46,"[14, 1]",50,0,50
+bestconfig,brotli,50,48,1.46,"[14, 1]",50,0,50
+bestconfig,brotli,50,49,1.46,"[14, 1]",50,0,50
+bestconfig,brotli,50,50,1.46,"[14, 1]",50,0,50
+bestconfig,brotli,50,51,1.46,"[14, 1]",50,0,50
+bestconfig,brotli,50,52,1.556,"[23, 0]",50,0,50
+bestconfig,brotli,50,53,1.46,"[14, 1]",50,0,50
+bestconfig,brotli,50,54,1.46,"[14, 1]",50,0,50
+bestconfig,brotli,50,55,1.556,"[23, 0]",50,0,50
+bestconfig,brotli,50,56,1.46,"[14, 1]",50,0,50
+bestconfig,brotli,50,57,1.556,"[23, 0]",50,0,50
+bestconfig,brotli,50,58,1.46,"[14, 1]",50,0,50
+bestconfig,brotli,50,59,1.526,"[11, 0]",50,0,50
+bestconfig,brotli,50,60,1.46,"[14, 1]",50,0,50
+bestconfig,brotli,50,61,1.46,"[14, 1]",50,0,50
+bestconfig,brotli,50,62,1.556,"[23, 0]",50,0,50
+bestconfig,brotli,50,63,1.46,"[14, 1]",50,0,50
+bestconfig,brotli,50,64,1.556,"[23, 0]",50,0,50
+bestconfig,brotli,50,65,1.526,"[11, 1]",50,0,50
+bestconfig,brotli,50,66,1.46,"[14, 1]",50,0,50
+bestconfig,brotli,50,67,1.46,"[14, 1]",50,0,50
+bestconfig,brotli,50,68,1.46,"[14, 1]",50,0,50
+bestconfig,brotli,50,69,1.46,"[14, 1]",50,0,50
+bestconfig,brotli,50,70,1.46,"[14, 1]",50,0,50
+bestconfig,brotli,50,71,1.46,"[14, 1]",50,0,50
+bestconfig,brotli,100,42,1.46,"[14, 1]",100,0,100
+bestconfig,brotli,100,43,1.46,"[14, 1]",100,0,100
+bestconfig,brotli,100,44,1.46,"[14, 1]",100,0,100
+bestconfig,brotli,100,45,1.46,"[14, 1]",100,0,100
+bestconfig,brotli,100,46,1.46,"[14, 1]",100,0,100
+bestconfig,brotli,100,47,1.46,"[14, 1]",100,0,100
+bestconfig,brotli,100,48,1.46,"[14, 1]",100,0,100
+bestconfig,brotli,100,49,1.46,"[14, 1]",100,0,100
+bestconfig,brotli,100,50,1.46,"[14, 1]",100,0,100
+bestconfig,brotli,100,51,1.46,"[14, 1]",100,0,100
+bestconfig,brotli,100,52,1.46,"[14, 1]",100,0,100
+bestconfig,brotli,100,53,1.46,"[14, 1]",100,0,100
+bestconfig,brotli,100,54,1.46,"[14, 1]",100,0,100
+bestconfig,brotli,100,55,1.46,"[14, 1]",100,0,100
+bestconfig,brotli,100,56,1.46,"[14, 1]",100,0,100
+bestconfig,brotli,100,57,1.46,"[14, 1]",100,0,100
+bestconfig,brotli,100,58,1.46,"[14, 1]",100,0,100
+bestconfig,brotli,100,59,1.46,"[14, 1]",100,0,100
+bestconfig,brotli,100,60,1.46,"[14, 1]",100,0,100
+bestconfig,brotli,100,61,1.46,"[14, 1]",100,0,100
+bestconfig,brotli,100,62,1.46,"[14, 1]",100,0,100
+bestconfig,brotli,100,63,1.46,"[14, 1]",100,0,100
+bestconfig,brotli,100,64,1.46,"[14, 1]",100,0,100
+bestconfig,brotli,100,65,1.46,"[14, 1]",100,0,100
+bestconfig,brotli,100,66,1.46,"[14, 1]",100,0,100
+bestconfig,brotli,100,67,1.46,"[14, 1]",100,0,100
+bestconfig,brotli,100,68,1.46,"[14, 1]",100,0,100
+bestconfig,brotli,100,69,1.46,"[14, 1]",100,0,100
+bestconfig,brotli,100,70,1.46,"[14, 1]",100,0,100
+bestconfig,brotli,100,71,1.46,"[14, 1]",100,0,100
+bestconfig,spear,50,42,0.000993048659384,"[0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1]",50,0,50
+bestconfig,spear,50,43,0.000993048659384,"[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0]",50,0,50
+bestconfig,spear,50,44,0.00297914597815,"[0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0]",50,0,50
+bestconfig,spear,50,45,0.000993048659384,"[0, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1]",50,0,50
+bestconfig,spear,50,46,0.000993048659384,"[0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0]",50,0,50
+bestconfig,spear,50,47,0.000993048659384,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0]",50,0,50
+bestconfig,spear,50,48,0.000993048659384,"[0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1]",50,0,50
+bestconfig,spear,50,49,0.000993048659384,"[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]",50,0,50
+bestconfig,spear,50,50,0.0,"[0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1]",50,0,50
+bestconfig,spear,50,51,0.00198609731877,"[0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1]",50,0,50
+bestconfig,spear,50,52,0.000993048659384,"[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1]",50,0,50
+bestconfig,spear,50,53,0.000993048659384,"[0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0]",50,0,50
+bestconfig,spear,50,54,0.000993048659384,"[0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1]",50,0,50
+bestconfig,spear,50,55,0.0,"[0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]",50,0,50
+bestconfig,spear,50,56,0.00198609731877,"[0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0]",50,0,50
+bestconfig,spear,50,57,0.00198609731877,"[0, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1]",50,0,50
+bestconfig,spear,50,58,0.000993048659384,"[0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0]",50,0,50
+bestconfig,spear,50,59,0.0,"[0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1]",50,0,50
+bestconfig,spear,50,60,0.000993048659384,"[0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1]",50,0,50
+bestconfig,spear,50,61,0.000993048659384,"[0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0]",50,0,50
+bestconfig,spear,50,62,0.00297914597815,"[0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0]",50,0,50
+bestconfig,spear,50,63,0.000993048659384,"[0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 0]",50,0,50
+bestconfig,spear,50,64,0.00198609731877,"[0, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0]",50,0,50
+bestconfig,spear,50,65,0.0,"[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0]",50,0,50
+bestconfig,spear,50,66,0.00297914597815,"[0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0]",50,0,50
+bestconfig,spear,50,67,0.00198609731877,"[0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1]",50,0,50
+bestconfig,spear,50,68,0.000993048659384,"[0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 1]",50,0,50
+bestconfig,spear,50,69,0.000993048659384,"[0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1]",50,0,50
+bestconfig,spear,50,70,0.0,"[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1]",50,0,50
+bestconfig,spear,50,71,0.00198609731877,"[0, 0, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 0, 1]",50,0,50
+bestconfig,spear,100,42,0.0,"[0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1]",100,0,100
+bestconfig,spear,100,43,0.000993048659384,"[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0]",100,0,100
+bestconfig,spear,100,44,0.00297914597815,"[0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0]",100,0,100
+bestconfig,spear,100,45,0.000993048659384,"[0, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1]",100,0,100
+bestconfig,spear,100,46,0.000993048659384,"[0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0]",100,0,100
+bestconfig,spear,100,47,0.000993048659384,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0]",100,0,100
+bestconfig,spear,100,48,0.0,"[0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0]",100,0,100
+bestconfig,spear,100,49,0.000993048659384,"[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]",100,0,100
+bestconfig,spear,100,50,0.0,"[0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1]",100,0,100
+bestconfig,spear,100,51,0.0,"[0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1]",100,0,100
+bestconfig,spear,100,52,0.000993048659384,"[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1]",100,0,100
+bestconfig,spear,100,53,0.0,"[0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]",100,0,100
+bestconfig,spear,100,54,0.0,"[0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1]",100,0,100
+bestconfig,spear,100,55,0.0,"[0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]",100,0,100
+bestconfig,spear,100,56,0.000993048659384,"[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0]",100,0,100
+bestconfig,spear,100,57,0.0,"[0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1]",100,0,100
+bestconfig,spear,100,58,0.000993048659384,"[0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0]",100,0,100
+bestconfig,spear,100,59,0.0,"[0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1]",100,0,100
+bestconfig,spear,100,60,0.0,"[0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1]",100,0,100
+bestconfig,spear,100,61,0.000993048659384,"[0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,spear,100,62,0.0,"[0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0]",100,0,100
+bestconfig,spear,100,63,0.000993048659384,"[0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 0]",100,0,100
+bestconfig,spear,100,64,0.000993048659384,"[0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0]",100,0,100
+bestconfig,spear,100,65,0.0,"[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0]",100,0,100
+bestconfig,spear,100,66,0.00297914597815,"[0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0]",100,0,100
+bestconfig,spear,100,67,0.00198609731877,"[0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1]",100,0,100
+bestconfig,spear,100,68,0.0,"[0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1]",100,0,100
+bestconfig,spear,100,69,0.000993048659384,"[0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1]",100,0,100
+bestconfig,spear,100,70,0.0,"[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1]",100,0,100
+bestconfig,spear,100,71,0.000993048659384,"[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]",100,0,100
+bestconfig,storm,50,42,0.0,"[4, 10, 4, 1000000, 1, 1, 1000, 1000, 512, 10000, 5, 29]",50,71,121
+bestconfig,storm,50,43,1.49793761226e-05,"[4, 1, 2, 1000000, 1, 1, 1000, 1000, 512, 10000, 5, 29]",50,52,102
+bestconfig,storm,50,44,1.36176146569e-05,"[4, 10, 2, 1000000, 10, 0, 1000, 1000, 512, 10000, 5, 0]",50,55,105
+bestconfig,storm,50,45,8.17056879415e-06,"[4, 1, 2, 1000000, 1, 0, 1000, 1000, 1024, 10000, 5, 29]",50,46,96
+bestconfig,storm,50,46,0.0,"[4, 10, 4, 1000000, 10, 0, 1, 1000, 1024, 10000, 5, 29]",50,78,128
+bestconfig,storm,50,47,8.17056879415e-06,"[4, 1, 2, 1000000, 1, 0, 1000, 1000, 1024, 10000, 5, 29]",50,40,90
+bestconfig,storm,50,48,0.0,"[4, 10, 4, 1000000, 1, 1, 1, 1000, 512, 10000, 5, 29]",50,57,107
+bestconfig,storm,50,49,0.0,"[4, 10, 4, 1000000, 1, 1, 1000, 1000, 512, 10000, 5, 29]",50,48,98
+bestconfig,storm,50,50,0.0,"[2, 1, 4, 1000000, 1, 1, 1, 10, 512, 100, 5, 0]",50,64,114
+bestconfig,storm,50,51,0.0,"[4, 10, 4, 1000000, 1, 1, 1, 1000, 512, 10000, 5, 29]",50,72,122
+bestconfig,storm,50,52,1.36176146569e-06,"[4, 1, 2, 1000000, 10, 1, 1, 1000, 512, 10000, 5, 0]",50,73,123
+bestconfig,storm,50,53,0.0,"[4, 10, 4, 1000000, 10, 0, 1, 1000, 1024, 10000, 5, 29]",50,56,106
+bestconfig,storm,50,54,1.49793761226e-05,"[4, 1, 2, 1000000, 1, 1, 1000, 1000, 512, 10000, 5, 29]",50,41,91
+bestconfig,storm,50,55,0.0,"[4, 10, 4, 1000000, 10, 0, 1, 1000, 1024, 10000, 5, 29]",50,70,120
+bestconfig,storm,50,56,1.49793761226e-05,"[4, 1, 2, 1000000, 1, 1, 1000, 1000, 512, 10000, 5, 29]",50,72,122
+bestconfig,storm,50,57,9.53233025984e-06,"[2, 1, 4, 1000000, 1, 0, 1000, 10, 1024, 100, 5, 0]",50,76,126
+bestconfig,storm,50,58,8.17056879415e-06,"[4, 1, 2, 1000000, 1, 0, 1000, 1000, 1024, 10000, 5, 29]",50,45,95
+bestconfig,storm,50,59,1.49793761226e-05,"[4, 1, 2, 1000000, 1, 1, 1000, 1000, 512, 10000, 5, 29]",50,44,94
+bestconfig,storm,50,60,1.49793761226e-05,"[4, 1, 2, 1000000, 1, 1, 1000, 1000, 512, 10000, 5, 29]",50,42,92
+bestconfig,storm,50,61,0.0,"[2, 1, 4, 1000000, 1, 1, 1, 10, 512, 100, 5, 0]",50,60,110
+bestconfig,storm,50,62,2.72352293138e-05,"[2, 10, 4, 1000000, 1, 0, 1000, 10, 1024, 100, 5, 29]",50,70,120
+bestconfig,storm,50,63,5.44704586276e-06,"[4, 10, 4, 1000000, 10, 0, 1000, 1000, 512, 10000, 2, 0]",50,73,123
+bestconfig,storm,50,64,0.0,"[4, 1, 2, 1000000, 10, 0, 1, 1000, 1024, 10000, 5, 0]",50,53,103
+bestconfig,storm,50,65,0.0,"[2, 10, 2, 1000000, 1, 0, 1, 1000, 512, 10000, 5, 0]",50,46,96
+bestconfig,storm,50,66,1.49793761226e-05,"[4, 1, 2, 1000000, 1, 1, 1000, 1000, 512, 10000, 5, 29]",50,52,102
+bestconfig,storm,50,67,9.53233025984e-06,"[2, 1, 4, 1000000, 1, 0, 1000, 10, 1024, 100, 5, 0]",50,46,96
+bestconfig,storm,50,68,9.53233025984e-06,"[2, 1, 4, 1000000, 1, 0, 1000, 10, 1024, 100, 5, 0]",50,67,117
+bestconfig,storm,50,69,1.49793761226e-05,"[4, 1, 2, 1000000, 1, 1, 1000, 1000, 512, 10000, 5, 29]",50,42,92
+bestconfig,storm,50,70,0.0,"[4, 10, 4, 1000000, 1, 1, 1000, 1000, 512, 10000, 5, 29]",50,42,92
+bestconfig,storm,50,71,8.17056879415e-06,"[4, 1, 2, 1000000, 1, 0, 1000, 1000, 1024, 10000, 5, 29]",50,49,99
+bestconfig,storm,100,42,0.0,"[4, 10, 4, 1000000, 1, 1, 1000, 1000, 512, 10000, 5, 29]",100,153,253
+bestconfig,storm,100,43,0.0,"[4, 10, 4, 1000000, 1, 1, 1000, 1000, 512, 10000, 5, 29]",100,117,217
+bestconfig,storm,100,44,0.0,"[4, 10, 4, 1000000, 10, 0, 1, 1000, 1024, 10000, 5, 29]",100,125,225
+bestconfig,storm,100,45,0.0,"[4, 1, 2, 1000000, 10, 0, 1, 1000, 1024, 10000, 5, 0]",100,128,228
+bestconfig,storm,100,46,0.0,"[4, 10, 4, 1000000, 10, 0, 1, 1000, 1024, 10000, 5, 29]",100,152,252
+bestconfig,storm,100,47,1.36176146569e-06,"[4, 1, 4, 1000000, 1, 1, 1000, 1000, 1024, 10000, 5, 0]",100,109,209
+bestconfig,storm,100,48,0.0,"[4, 10, 4, 1000000, 1, 1, 1, 1000, 512, 10000, 5, 29]",100,100,200
+bestconfig,storm,100,49,0.0,"[4, 1, 2, 1000000, 10, 0, 1, 1000, 1024, 10000, 5, 0]",100,132,232
+bestconfig,storm,100,50,0.0,"[2, 1, 4, 1000000, 1, 1, 1, 10, 512, 100, 5, 0]",100,145,245
+bestconfig,storm,100,51,0.0,"[4, 10, 4, 1000000, 1, 1, 1, 1000, 512, 10000, 5, 29]",100,130,230
+bestconfig,storm,100,52,0.0,"[2, 1, 2, 1000000, 1, 0, 1, 1000, 512, 10000, 5, 0]",100,137,237
+bestconfig,storm,100,53,0.0,"[4, 10, 4, 1000000, 10, 0, 1, 1000, 1024, 10000, 5, 29]",100,128,228
+bestconfig,storm,100,54,0.0,"[2, 1, 2, 1000000, 1, 0, 1, 1000, 512, 10000, 5, 0]",100,138,238
+bestconfig,storm,100,55,0.0,"[4, 10, 4, 1000000, 10, 0, 1, 1000, 1024, 10000, 5, 29]",100,144,244
+bestconfig,storm,100,56,2.72352293138e-06,"[2, 10, 4, 1000000, 1, 0, 1000, 10, 512, 100, 2, 0]",100,140,240
+bestconfig,storm,100,57,2.72352293138e-06,"[2, 10, 4, 1000000, 1, 0, 1000, 10, 512, 100, 2, 0]",100,148,248
+bestconfig,storm,100,58,0.0,"[4, 1, 2, 1000000, 10, 0, 1, 1000, 1024, 10000, 5, 0]",100,116,216
+bestconfig,storm,100,59,0.0,"[4, 10, 4, 1000000, 1, 1, 1000, 1000, 512, 10000, 5, 29]",100,148,248
+bestconfig,storm,100,60,0.0,"[4, 10, 4, 1000000, 1, 1, 1000, 1000, 512, 10000, 5, 29]",100,111,211
+bestconfig,storm,100,61,0.0,"[2, 1, 4, 1000000, 1, 1, 1, 10, 512, 100, 5, 0]",100,121,221
+bestconfig,storm,100,62,0.0,"[2, 1, 4, 1000000, 1, 1, 1, 10, 1024, 100, 5, 29]",100,148,248
+bestconfig,storm,100,63,5.44704586276e-06,"[4, 10, 4, 1000000, 10, 0, 1000, 1000, 512, 10000, 2, 0]",100,152,252
+bestconfig,storm,100,64,0.0,"[4, 1, 2, 1000000, 10, 0, 1, 1000, 1024, 10000, 5, 0]",100,106,206
+bestconfig,storm,100,65,0.0,"[2, 10, 2, 1000000, 1, 0, 1, 1000, 512, 10000, 5, 0]",100,98,198
+bestconfig,storm,100,66,1.36176146569e-06,"[4, 1, 2, 1000000, 10, 1, 1, 1000, 512, 10000, 5, 0]",100,122,222
+bestconfig,storm,100,67,9.53233025984e-06,"[2, 1, 4, 1000000, 1, 0, 1000, 10, 1024, 100, 5, 0]",100,133,233
+bestconfig,storm,100,68,9.53233025984e-06,"[2, 1, 4, 1000000, 1, 0, 1000, 10, 1024, 100, 5, 0]",100,156,256
+bestconfig,storm,100,69,0.0,"[2, 1, 4, 1000000, 1, 1, 1, 10, 1024, 100, 5, 29]",100,91,191
+bestconfig,storm,100,70,2.72352293138e-06,"[4, 10, 4, 1000000, 10, 0, 1, 10, 512, 100, 5, 0]",100,126,226
+bestconfig,storm,100,71,1.36176146569e-06,"[4, 1, 4, 1000000, 1, 1, 1000, 1000, 1024, 10000, 5, 0]",100,125,225
+bestconfig,x264,50,42,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",50,0,50
+bestconfig,x264,50,43,22.394,"[4, 1, 2, 1, 1, 0, 0, 0, 1, 0]",50,0,50
+bestconfig,x264,50,44,21.678,"[4, 1, 1, 1, 1, 1, 0, 0, 0, 0]",50,0,50
+bestconfig,x264,50,45,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",50,0,50
+bestconfig,x264,50,46,21.65,"[4, 1, 1, 1, 1, 1, 0, 0, 0, 1]",50,0,50
+bestconfig,x264,50,47,21.694,"[4, 1, 1, 1, 1, 0, 0, 0, 0, 1]",50,0,50
+bestconfig,x264,50,48,21.636,"[4, 1, 1, 1, 1, 0, 0, 0, 0, 0]",50,0,50
+bestconfig,x264,50,49,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",50,0,50
+bestconfig,x264,50,50,21.636,"[4, 1, 1, 1, 1, 0, 0, 0, 0, 0]",50,0,50
+bestconfig,x264,50,51,23.062,"[4, 1, 2, 1, 1, 1, 1, 1, 1, 0]",50,0,50
+bestconfig,x264,50,52,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",50,0,50
+bestconfig,x264,50,53,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",50,0,50
+bestconfig,x264,50,54,21.636,"[4, 1, 1, 1, 1, 0, 0, 0, 0, 0]",50,0,50
+bestconfig,x264,50,55,21.586,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 1]",50,0,50
+bestconfig,x264,50,56,21.942,"[4, 1, 1, 1, 1, 1, 1, 0, 0, 0]",50,0,50
+bestconfig,x264,50,57,21.586,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 1]",50,0,50
+bestconfig,x264,50,58,21.586,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 1]",50,0,50
+bestconfig,x264,50,59,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",50,0,50
+bestconfig,x264,50,60,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",50,0,50
+bestconfig,x264,50,61,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",50,0,50
+bestconfig,x264,50,62,21.694,"[4, 1, 1, 1, 1, 0, 0, 0, 0, 1]",50,0,50
+bestconfig,x264,50,63,21.586,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 1]",50,0,50
+bestconfig,x264,50,64,21.636,"[4, 1, 1, 1, 1, 0, 0, 0, 0, 0]",50,0,50
+bestconfig,x264,50,65,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",50,0,50
+bestconfig,x264,50,66,21.97,"[4, 1, 1, 1, 1, 1, 0, 0, 1, 1]",50,0,50
+bestconfig,x264,50,67,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",50,0,50
+bestconfig,x264,50,68,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",50,0,50
+bestconfig,x264,50,69,21.636,"[4, 1, 1, 1, 1, 0, 0, 0, 0, 0]",50,0,50
+bestconfig,x264,50,70,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",50,0,50
+bestconfig,x264,50,71,21.636,"[4, 1, 1, 1, 1, 0, 0, 0, 0, 0]",50,0,50
+bestconfig,x264,100,42,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,x264,100,43,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,x264,100,44,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,x264,100,45,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,x264,100,46,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,x264,100,47,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,x264,100,48,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,x264,100,49,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,x264,100,50,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,x264,100,51,21.636,"[4, 1, 1, 1, 1, 0, 0, 0, 0, 0]",100,0,100
+bestconfig,x264,100,52,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,x264,100,53,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,x264,100,54,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,x264,100,55,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,x264,100,56,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,x264,100,57,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,x264,100,58,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,x264,100,59,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,x264,100,60,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,x264,100,61,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,x264,100,62,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,x264,100,63,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,x264,100,64,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,x264,100,65,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,x264,100,66,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,x264,100,67,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,x264,100,68,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,x264,100,69,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,x264,100,70,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",100,0,100
+bestconfig,x264,100,71,21.556,"[4, 1, 1, 1, 1, 0, 0, 0, 1, 0]",100,0,100

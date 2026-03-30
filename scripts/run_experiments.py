@@ -16,14 +16,12 @@ from src.evaluation import (
     run_repeated_experiments,
 )
 from src.random_search import run_random_search
-
-# Uncomment later when the improved algorithm is implemented.
-# from src.bestconfig_search import run_bestconfig_search
+from src.bestconfig_search import run_bestconfig_search
 
 # Register algorithms here as (algorithm_name, search_fn).
 METHODS = [
     ("baseline_random_search", run_random_search),
-    # ("improved_bestconfig", run_bestconfig_search),
+    ("bestconfig", run_bestconfig_search),
 ]
 
 DATASETS_FOLDER = os.path.join("datasets")
