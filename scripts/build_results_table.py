@@ -38,7 +38,7 @@ STAT_TEST_REQUIRED_COLUMNS = {
     "budget",
     "p_value",
     "significant_at_0_05",
-    "winnerinne",
+    "winner",
 }
 OUTPUT_COLUMNS = [
     "dataset",
@@ -51,7 +51,7 @@ OUTPUT_COLUMNS = [
     "bestconfig_q3",
     "p_value",
     "significant_at_0_05",
-    "winnerinne",
+    "winner",
 ]
 ROUND_DECIMALS = 4
 
