@@ -1,5 +1,6 @@
 """
-build_results_table.py - Build a compact report table from experiment summaries.
+build_results_table.py - Build the report-facing table from experiment summaries
+and Holm-adjusted Wilcoxon results.
 
 Usage:
     python -m scripts.build_results_table
@@ -36,9 +37,9 @@ AGGREGATED_REQUIRED_COLUMNS = {
 STAT_TEST_REQUIRED_COLUMNS = {
     "dataset",
     "budget",
-    "p_value",
-    "significant_at_0_05",
-    "winner",
+    "holm_p_value",
+    "significant_holm_0_05",
+    "winner_holm",
 }
 OUTPUT_COLUMNS = [
     "dataset",
@@ -49,11 +50,12 @@ OUTPUT_COLUMNS = [
     "baseline_q3",
     "bestconfig_q1",
     "bestconfig_q3",
-    "p_value",
-    "significant_at_0_05",
-    "winner",
+    "holm_p_value",
+    "significant_holm_0_05",
+    "winner_holm",
 ]
 ROUND_DECIMALS = 4
+SMALL_NUMBER_THRESHOLD = 10 ** (-ROUND_DECIMALS)
 
 
 def ensure_required_file(file_path):
@@ -104,7 +106,7 @@ def load_stat_tests():
 
     prepared = stat_tests.copy()
     prepared["budget"] = pd.to_numeric(prepared["budget"], errors="coerce")
-    prepared["p_value"] = pd.to_numeric(prepared["p_value"], errors="coerce")
+    prepared["holm_p_value"] = pd.to_numeric(prepared["holm_p_value"], errors="coerce")
     prepared = prepared.dropna(subset=["dataset", "budget"])
     return prepared
 
@@ -152,24 +154,14 @@ def build_order_frame(aggregated_results):
 
 
 def round_output_values(results_table):
-    rounded = results_table.copy()
-    numeric_columns = [
-        "baseline_median",
-        "bestconfig_median",
-        "baseline_q1",
-        "baseline_q3",
-        "bestconfig_q1",
-        "bestconfig_q3",
-        "p_value",
-    ]
-    rounded[numeric_columns] = rounded[numeric_columns].round(ROUND_DECIMALS)
+    normalized = results_table.copy()
 
-    if pd.api.types.is_float_dtype(rounded["budget"]):
-        integral_mask = rounded["budget"].dropna().map(float.is_integer)
+    if pd.api.types.is_float_dtype(normalized["budget"]):
+        integral_mask = normalized["budget"].dropna().map(float.is_integer)
         if integral_mask.all():
-            rounded["budget"] = rounded["budget"].astype("Int64")
+            normalized["budget"] = normalized["budget"].astype("Int64")
 
-    return rounded
+    return normalized
 
 
 def build_results_table(aggregated_results, stat_tests):
@@ -186,7 +178,13 @@ def build_results_table(aggregated_results, stat_tests):
     )
     stat_summary = stat_tests.loc[
         :,
-        ["dataset", "budget", "p_value", "significant_at_0_05", "winner"],
+        [
+            "dataset",
+            "budget",
+            "holm_p_value",
+            "significant_holm_0_05",
+            "winner_holm",
+        ],
     ].copy()
 
     duplicate_mask = stat_summary.duplicated(subset=["dataset", "budget"], keep=False)
@@ -228,16 +226,25 @@ def format_cell(value):
     if isinstance(value, int):
         return str(value)
     if isinstance(value, float):
+        if value == 0:
+            return "0"
         if value.is_integer():
             return str(int(value))
+        if abs(value) < SMALL_NUMBER_THRESHOLD:
+            return f"{value:.4g}"
         return f"{value:.{ROUND_DECIMALS}f}".rstrip("0").rstrip(".")
     return str(value)
 
 
+def build_display_table(results_table):
+    return results_table.map(format_cell)
+
+
 def build_markdown_table(results_table):
+    display_table = build_display_table(results_table)
     rows = [OUTPUT_COLUMNS]
-    for row in results_table.itertuples(index=False, name=None):
-        rows.append([format_cell(value) for value in row])
+    for row in display_table.itertuples(index=False, name=None):
+        rows.append(list(row))
 
     column_widths = [
         max(len(str(row[column_index])) for row in rows)
@@ -259,7 +266,7 @@ def build_markdown_table(results_table):
 
 def save_outputs(results_table):
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    results_table.to_csv(OUTPUT_CSV_FILE, index=False)
+    build_display_table(results_table).to_csv(OUTPUT_CSV_FILE, index=False)
     OUTPUT_MD_FILE.write_text(build_markdown_table(results_table), encoding="utf-8")
 
 
